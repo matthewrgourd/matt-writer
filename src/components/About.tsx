@@ -36,10 +36,6 @@ const About = () => {
                     London, UK (Remote)
                   </div>
                   <div className="flex items-center text-sm text-slate-600">
-                    <Mail className="h-4 w-4 mr-2 text-blue-600" />
-                    mattgourd@gmail.com
-                  </div>
-                  <div className="flex items-center text-sm text-slate-600">
                     <Clock className="h-4 w-4 mr-2 text-blue-600" />
                     20+ Years Experience
                   </div>
@@ -59,60 +55,77 @@ const About = () => {
               Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to DJ-ing, creating electronic music, and runnning half-marathons, often in support of charitable causes. These pursuits drive and inspire me.
             </p>
 
-            <h4 className="text-xl font-bold mt-8 mb-4">Work Experience</h4>
+            <h4 className="text-xl font-bold mt-8 mb-4">Work experience</h4>
 
             <div className="space-y-6">
               <div className="border-l-2 border-blue-600 pl-4">
-                <h5 className="font-bold text-lg">Senior Technical Writer</h5>
-                <p className="text-blue-600 mb-1">TechCorp Inc. (2020 - Present)</p>
+                <h5 className="font-bold text-lg">Technical Documentation Manager</h5>
+                <p className="text-blue-600 mb-1">Backbase (2023 - present)</p>
                 <p className="text-slate-600 mb-3">
-                  Lead technical writer responsible for API documentation, developer guides, and technical content strategy.
+                  Manage a team of technical writers, providing guidance, training, and mentorship to ensure optimal performance and cohesiveness within the documentation team.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Reduced support tickets by 40% through improved documentation</span>
+                    <span className="text-slate-700">Work closely with backend and frontend engineering teams to capture and communicate technical information effectively, ensuring good coordination between development and documentation efforts.
+</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Implemented docs-as-code approach with automated testing and deployment</span>
+                    <span className="text-slate-700">Contribute to product enhancement and user satisfaction by creating detailed overviews, setup guides, configuration instructions, and reference materials for developers.</span>
+                  </li>
+
+                  <li className="flex items-start">
+                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span className="text-slate-700">Ensure that documentation meets quality standards, adheres to best practices, and consistently delivers value to customers.</span>
                   </li>
                 </ul>
               </div>
 
               <div className="border-l-2 border-blue-600 pl-4">
-                <h5 className="font-bold text-lg">Documentation Specialist</h5>
-                <p className="text-blue-600 mb-1">DevSoft Solutions (2018 - 2020)</p>
+                <h5 className="font-bold text-lg">Senior Technical Writer</h5>
+                <p className="text-blue-600 mb-1">Backbase (2021 - 2023)</p>
                 <p className="text-slate-600 mb-3">
-                  Created user guides, API documentation, and release notes for cloud-based SaaS platform.
+                  Enhanced the quality of functional, procedural, and reference documentation for a loan origination software product tailored to banks and credit unions. These improvements created a more comprehensive and user-friendly resource for clients.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Built comprehensive knowledge base with 200+ articles</span>
+                    <span className="text-slate-700">Ensured compliance with the Google Developer Documentation Style Guide, implementing consistent architecture and style across all documentation. This adherence to industry best practices increased the usability of our docs.</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Developed style guide and documentation templates</span>
+                    <span className="text-slate-700">Collaborated effectively with fellow technical writers and key stakeholders to optimise internal processes. These efforts improved efficiency and streamlined documentation development workflows, leading to better product delivery timelines.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span className="text-slate-700">Played a vital role in enhancing the UX copy within the product, working closely with frontend engineers to implement these improvements. This work resulted in a better user experience for our customers.</span>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <h4 className="text-xl font-bold mt-8 mb-4">Education & Certifications</h4>
+            <h4 className="text-xl font-bold mt-8 mb-4">Education and certifications</h4>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="bg-white p-4 rounded-lg border border-slate-200">
-                <FileText className="h-5 w-5 text-blue-600 mb-2" />
-                <h5 className="font-bold mb-1">B.S. Computer Science</h5>
-                <p className="text-sm text-slate-600">University of California, Berkeley</p>
-              </div>
+
+            <div className="bg-white p-4 rounded-lg border border-slate-200">
+              <FileText className="h-5 w-5 text-blue-600 mb-2" />
+              <h5 className="font-bold mb-1">Using Generative AI in Technical Writing</h5>
+              <p className="text-sm text-slate-600">Cherryleaf (accredited by ISTC)</p>
+            </div>
 
               <div className="bg-white p-4 rounded-lg border border-slate-200">
                 <Gift className="h-5 w-5 text-blue-600 mb-2" />
-                <h5 className="font-bold mb-1">Technical Writing Certification</h5>
-                <p className="text-sm text-slate-600">Society for Technical Communication</p>
+                <h5 className="font-bold mb-1">ICL Technical Writer Training</h5>
+                <p className="text-sm text-slate-600">Fujitsu Ltd.</p>
               </div>
+              <div className="bg-white p-4 rounded-lg border border-slate-200">
+                <FileText className="h-5 w-5 text-blue-600 mb-2" />
+                <h5 className="font-bold mb-1">BA Technology Management (one year)</h5>
+                <p className="text-sm text-slate-600">University of Wales, Cardiff</p>
+              </div>
+
             </div>
           </div>
         </div>

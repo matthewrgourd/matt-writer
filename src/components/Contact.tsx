@@ -25,22 +25,16 @@ const Contact = () => {
               <h4 className="font-medium text-slate-900 mb-3">Connect with me</h4>
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/mattgourd"
                   className="h-10 w-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-600 hover:bg-blue-100 hover:text-blue-600 transition-colors"
                 >
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/matthewrgourd"
                   className="h-10 w-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-600 hover:bg-blue-100 hover:text-blue-600 transition-colors"
                 >
                   <Github className="h-5 w-5" />
-                </a>
-                <a
-                  href="#"
-                  className="h-10 w-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-600 hover:bg-blue-100 hover:text-blue-600 transition-colors"
-                >
-                  <Globe className="h-5 w-5" />
                 </a>
               </div>
             </div>

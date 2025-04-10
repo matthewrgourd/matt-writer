@@ -33,12 +33,6 @@ const Header = () => {
           <a href="#contact" className="text-slate-700 hover:text-blue-600 transition-colors">
             Contact
           </a>
-          <Button asChild variant="outline" className="ml-4 flex items-center gap-2">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <Github className="h-4 w-4" />
-              <span>GitHub</span>
-            </a>
-          </Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -86,12 +80,6 @@ const Header = () => {
           >
             Contact
           </a>
-          <Button asChild variant="outline" className="flex items-center justify-center gap-2 w-full">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <Github className="h-4 w-4" />
-              <span>GitHub</span>
-            </a>
-          </Button>
         </nav>
       )}
     </header>

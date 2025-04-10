@@ -25,27 +25,6 @@ const portfolioItems = [
     tags: ["Knowledge Base", "Product Documentation", "UX Writing"],
     link: "#",
     type: "Documentation"
-  },
-  {
-    title: "Open Source Contribution Guide",
-    description: "Developed contribution guidelines and documentation templates for an open-source project, increasing community contributions by 30%.",
-    tags: ["Open Source", "Community", "Standards"],
-    link: "#",
-    type: "Guide" 
-  },
-  {
-    title: "Technical Blog Series",
-    description: "Authored a 12-part technical blog series explaining advanced features of the company's software platform, generating over 50,000 views.",
-    tags: ["Technical Blog", "Tutorial", "Content Marketing"],
-    link: "#",
-    type: "Content"
-  },
-  {
-    title: "Release Notes Automation",
-    description: "Implemented a system to automate the generation of release notes from JIRA tickets, improving accuracy and reducing documentation time by 75%.",
-    tags: ["Automation", "Release Notes", "DevOps"],
-    link: "#",
-    type: "Process"
   }
 ];
 
@@ -60,7 +39,7 @@ const Portfolio = () => {
             A selection of my technical writing projects and documentation work.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {portfolioItems.map((item, index) => (
             <Card key={index} className="card-hover">
@@ -89,8 +68,8 @@ const Portfolio = () => {
                 </div>
               </CardContent>
               <CardFooter>
-                <a 
-                  href={item.link} 
+                <a
+                  href={item.link}
                   className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors"
                 >
                   View Project
