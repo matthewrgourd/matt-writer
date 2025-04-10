@@ -41,7 +41,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <a href="Matthew-Gourd-CV.pdf"><Button className="w-full">Download CV</Button></a>
+                <a href="Matthew-Gourd.pdf"><Button className="w-full">Download CV</Button></a>
               </div>
             </div>
           </div>
@@ -107,7 +107,11 @@ const About = () => {
               <h5 className="font-bold mb-1">Using Generative AI in Technical Writing</h5>
               <p className="text-sm text-slate-600">Cherryleaf (accredited by ISTC)</p>
             </div>
-
+            <div className="bg-white p-4 rounded-lg border border-slate-200">
+              <Gift className="h-5 w-5 text-blue-600 mb-2" />
+              <h5 className="font-bold mb-1">People Manager Programme</h5>
+              <p className="text-sm text-slate-600">Lepaya</p>
+            </div>
               <div className="bg-white p-4 rounded-lg border border-slate-200">
                 <Gift className="h-5 w-5 text-blue-600 mb-2" />
                 <h5 className="font-bold mb-1">ICL Technical Writer Training</h5>
@@ -115,8 +119,8 @@ const About = () => {
               </div>
               <div className="bg-white p-4 rounded-lg border border-slate-200">
                 <FileText className="h-5 w-5 text-blue-600 mb-2" />
-                <h5 className="font-bold mb-1">BA Technology Management (one year)</h5>
-                <p className="text-sm text-slate-600">University of Wales, Cardiff</p>
+                <h5 className="font-bold mb-1">BSc (Hons) Technology Management</h5>
+                <p className="text-sm text-slate-600">University of Wales, Cardiff (1 year completed at 2:1 level)</p>
               </div>
 
             </div>

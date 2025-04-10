@@ -6,25 +6,25 @@ import { Book, ExternalLink, FileText, Github } from 'lucide-react';
 
 const portfolioItems = [
   {
-    title: "API Documentation Overhaul",
-    description: "Led a complete revamp of the company's API documentation, implementing OpenAPI specs and interactive documentation that reduced support tickets by 45%.",
-    tags: ["API", "OpenAPI", "Technical Writing"],
-    link: "#",
+    title: "Launched a developer portal",
+    description: "Created a comprehensive developer portal for Viva Wallet clients to get help with environment setup, plugin integration, payment tools, card issuing, and POS terminals.",
+    tags: ["Onboarding", "Developer experience", "Help guides"],
+    link: "https://developer.viva.com",
+    type: "Developer portal"
+  },
+  {
+    title: "Overhauled API documentation",
+    description: "Led a complete revamp of the company's API documentation, re-writing OpenAPI specs, and using Redoc to display them consistently and in a user-friendly manner.",
+    tags: ["API", "OpenAPI", "Technical writing"],
+    link: "https://developer.viva.com/apis-for-payments/payment-api",
     type: "Documentation"
   },
   {
-    title: "Developer Onboarding Guide",
-    description: "Created a comprehensive onboarding guide for new developers, including environment setup, coding standards, and workflow processes.",
-    tags: ["Onboarding", "Developer Experience", "Guides"],
-    link: "#",
-    type: "Guide"
-  },
-  {
-    title: "Product Knowledge Base",
-    description: "Designed and wrote over 200 knowledge base articles for a SaaS platform, creating a searchable database of troubleshooting guides and feature documentation.",
-    tags: ["Knowledge Base", "Product Documentation", "UX Writing"],
-    link: "#",
-    type: "Documentation"
+    title: "Contributed to a knowledge base",
+    description: "Designed and wrote multiple knowledge base articles for the Viva Wallet SaaS platform, creating a searchable database of troubleshooting guides and feature documentation.",
+    tags: ["Knowledge base", "Product documentation", "UX writing"],
+    link: "https://ukhelp.viva.com/en",
+    type: "FAQs"
   }
 ];
 
@@ -70,9 +70,9 @@ const Portfolio = () => {
               <CardFooter>
                 <a
                   href={item.link}
-                  className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors"
+                  className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors" target="_blank"
                 >
-                  View Project
+                  View project
                   <ExternalLink className="ml-1 h-3 w-3" />
                 </a>
               </CardFooter>
