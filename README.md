@@ -1,18 +1,18 @@
 # Matt Gourd — technical writer portfolio
 
-Welcome to the personal portfolio website of **Matt Gourd**, a Senior Technical Writer and Documentation Manager with over a decade of experience in API documentation, developer guides, and technical content strategy.
+Welcome to my professional portfolio website. I'm a Senior Technical Writer and Documentation Manager with 20+ years of experience in API documentation, developer guides, and technical content strategy.
 
-This site showcases Matt’s writing style, technical documentation capabilities, and approach to developer experience, content systems, and product enablement.
+This site showcases my writing style, technical documentation capabilities, and approach to developer experience, content systems, and product enablement.
 
-## 🌐 Live Preview
+## 🌐 Live preview
 
-[Coming Soon] — Link to deployed site or GitHub Pages
+[www.mattgourd.com](https://www.mattgourd.com) — link to deployed site
 
-## ✍️ About the Site
+## ✍️ About the site
 
 This portfolio is designed for clarity, speed, and accessibility. Built using a modern front-end stack, it emphasizes clean design and structured presentation of writing samples and experience.
 
-### 🔧 Tech Stack
+### 🔧 Tech stack
 
 - **[Vite](https://vitejs.dev/)** — Lightning-fast development tooling
 - **[Tailwind CSS](https://tailwindcss.com/)** — Utility-first styling framework
