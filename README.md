@@ -18,4 +18,3 @@ This portfolio is designed for clarity, speed, and accessibility. Built using a 
 - **[Tailwind CSS](https://tailwindcss.com/)** — Utility-first styling framework
 - **[TypeScript](https://www.typescriptlang.org/)** — For scalable, typed code
 - **[React](https://reactjs.org/)** — Component-based UI rendering
-- **[Bun](https://bun.sh/)** *(optional)* — For dependency management and runtime
