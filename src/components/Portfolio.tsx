@@ -21,9 +21,9 @@ const portfolioItems = [
   },
   {
     title: "Contributed to a knowledge base",
-    description: "Designed and wrote multiple knowledge base articles for the Viva Wallet SaaS platform, creating a searchable database of troubleshooting guides and feature documentation.",
-    tags: ["Knowledge base", "Product documentation", "UX writing"],
-    link: "https://ukhelp.viva.com/en",
+    description: "Designed and wrote multiple knowledge base articles for BT Business products and services, creating a searchable database of troubleshooting guides and feature documentation.",
+    tags: ["Knowledge base", "Product documentation", "FAQs"],
+    link: "https://business.bt.com/help/home",
     type: "FAQs"
   }
 ];
