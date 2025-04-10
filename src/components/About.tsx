@@ -52,7 +52,7 @@ const About = () => {
               With over two decades of experience as a technical writer, I've had the privilege of helping some remarkable companies, ranging from small startups to FTSE 100s. Creating documentation for software developers is where I excel, and my approachable and amiable nature makes working with me a breeze.
             </p>
             <p className="text-slate-700 mb-6 leading-relaxed">
-              Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to DJ-ing, creating electronic music, and runnning half-marathons, often in support of charitable causes. These pursuits drive and inspire me.
+              Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to DJ-ing, creating electronic music, and runnning half-marathons in support of charitable causes. These pursuits drive and inspire me.
             </p>
 
             <h4 className="text-xl font-bold mt-8 mb-4">Work experience</h4>
@@ -61,19 +61,20 @@ const About = () => {
               <div className="border-l-2 border-blue-600 pl-4">
                 <h5 className="font-bold text-lg">Technical Documentation Manager</h5>
                 <p className="text-blue-600 mb-1">Backbase (2023 - present)</p>
-                <p className="text-slate-600 mb-3">
-                  Manage a team of technical writers, providing guidance, training, and mentorship to ensure optimal performance and cohesiveness within the documentation team.
-                </p>
-                <ul className="space-y-2">
+
+              <p className="text-slate-600 mb-3">
+                    Manage and mentor a team of technical writers, encouraging performance, cohesion, and professional growth.
+                  </p>
+
+                  <ul className="space-y-2">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Work closely with backend and frontend engineering teams to capture and communicate technical information effectively, ensuring good coordination between development and documentation efforts.
-</span>
+                    <span className="text-slate-700">Champion documentation quality through consistent standards, rationalised processes, and adherence to internal style guides</span>
                   </li>
 
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Ensure that documentation meets quality standards, adheres to best practices, and consistently delivers value to customers.</span>
+                    <span className="text-slate-700">Partner with backend and frontend engineers to capture and translate complex technical concepts into clear, user-focused documentation</span>
                   </li>
                 </ul>
               </div>
@@ -82,17 +83,25 @@ const About = () => {
                 <h5 className="font-bold text-lg">Senior Technical Writer</h5>
                 <p className="text-blue-600 mb-1">Backbase (2021 - 2023)</p>
                 <p className="text-slate-600 mb-3">
-                  Enhanced the quality of functional, procedural, and reference documentation for a loan origination software product tailored to banks and credit unions. These improvements created a more comprehensive and user-friendly resource for clients.
+                  Steered the development of loan origination software documentation for global banking clients, ensuring clarity and usability.
                 </p>
                 <ul className="space-y-2">
 
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Collaborated effectively with fellow technical writers and key stakeholders to optimise internal processes. These efforts improved efficiency and streamlined documentation development workflows, leading to better product delivery timelines.</span>
+                    <span className="text-slate-700">Standardised documentation structure and consistency using the Google developer documentation style guide</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Played a vital role in enhancing the UX copy within the product, working closely with frontend engineers to implement these improvements. This work resulted in a better user experience for our customers.</span>
+                    <span className="text-slate-700">Liaised with product, QA, and design teams to formulate content strategy and adopt best practices in documentation</span>
+                  </li>
+                  <li className="flex items-start">
+                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span className="text-slate-700">Introduced internal process improvements in documentation planning, peer review, and stakeholder engagement</span>
+                  </li>
+                  <li className="flex items-start">
+                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span className="text-slate-700">Joined forces with frontend engineers to refine in-product UX copy, maximising alignment with user needs and design principles</span>
                   </li>
                 </ul>
               </div>

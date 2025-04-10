@@ -33,7 +33,7 @@ const skillsCategories = [
       "REST APIs",
       "GraphQL",
       "Git and version control",
-      "CI/CD Pipelines"
+      "CI/CD pipelines"
     ]
   },
   {
@@ -51,9 +51,9 @@ const skillsCategories = [
     title: "Tools and platforms",
     icon: <Laptop className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Markdown/AsciiDoc",
-      "DITA/XML",
-      "Confluence/Jira",
+      "Docs-as-Code: Markdown/AsciiDoc",
+      "DITA/XML; Diátaxis",
+      "AI/LLMs: Copilot, custom GPTs, RAGs",
       "Swagger/OpenAPI",
       "GitHub/GitLab"
     ]
@@ -90,7 +90,7 @@ const Skills = () => {
           <h2 className="text-3xl font-bold mb-4">Skills and expertise</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-            Combining technical knowledge with writing expertise to create exceptional docs.
+            Combining technical knowledge with writing expertise and AI to create exceptional docs.
           </p>
         </div>
 

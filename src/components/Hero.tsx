@@ -21,7 +21,7 @@ const Hero = () => {
               Bridging the gap between <span className="text-blue-600">code</span> and <span className="text-blue-600">communication</span>
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl animate-fade-in animate-delay-200">
-              I write clear, concise documentation for complex software products. With experience in API documentation, developer guides, and technical content strategy, I help make your technology accessible to all users.
+              I write clear, concise documentation for complex software products. With a wealth of experience in API documentation, developer guides, and technical content strategy, I help make your technology accessible to all users.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in animate-delay-300">
               <Button asChild size="lg" className="gap-2">
@@ -58,7 +58,7 @@ const Hero = () => {
                     <p className="ml-4 text-orange-300">'Content strategy',</p>
                     <p className="ml-4 text-orange-300">'Developer experience'</p>
                     <p className="text-green-400">];</p>
-                    <p className="text-green-400 mt-2">function <span className="text-yellow-300">connect</span>() {'{'};</p>
+                    <p className="text-green-400 mt-2">function <span className="text-yellow-300">connect</span>() {'{'}</p>
                     <p className="ml-4 text-slate-200">return "Let's collaborate!";</p>
                     <p className="text-green-400">{'}'}</p>
                   </div>
