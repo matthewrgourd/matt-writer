@@ -41,7 +41,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <Button className="w-full">Download CV</Button>
+                <a href="Matthew-Gourd-CV.pdf"><Button className="w-full">Download CV</Button></a>
               </div>
             </div>
           </div>
@@ -70,10 +70,6 @@ const About = () => {
                     <span className="text-slate-700">Work closely with backend and frontend engineering teams to capture and communicate technical information effectively, ensuring good coordination between development and documentation efforts.
 </span>
                   </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Contribute to product enhancement and user satisfaction by creating detailed overviews, setup guides, configuration instructions, and reference materials for developers.</span>
-                  </li>
 
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
@@ -89,10 +85,7 @@ const About = () => {
                   Enhanced the quality of functional, procedural, and reference documentation for a loan origination software product tailored to banks and credit unions. These improvements created a more comprehensive and user-friendly resource for clients.
                 </p>
                 <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Ensured compliance with the Google Developer Documentation Style Guide, implementing consistent architecture and style across all documentation. This adherence to industry best practices increased the usability of our docs.</span>
-                  </li>
+
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">Collaborated effectively with fellow technical writers and key stakeholders to optimise internal processes. These efforts improved efficiency and streamlined documentation development workflows, leading to better product delivery timelines.</span>
