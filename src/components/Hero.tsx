@@ -10,30 +10,30 @@ const Hero = () => {
       <div className="absolute inset-0 -z-10 opacity-[0.03]">
         <div className="absolute inset-0" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")" }}></div>
       </div>
-      
+
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-3/5 md:pr-8 mb-10 md:mb-0">
             <div className="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-800 font-medium text-sm mb-6 animate-fade-in">
-              Senior Technical Writer
+              Documentation Manager
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight animate-fade-in animate-delay-100">
               Bridging the gap between <span className="text-blue-600">code</span> and <span className="text-blue-600">communication</span>
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl animate-fade-in animate-delay-200">
-              I craft clear, concise documentation for complex software products. With experience in API documentation, developer guides, and technical content strategy, I help make your technology accessible to all users.
+              I write clear, concise documentation for complex software products. With experience in API documentation, developer guides, and technical content strategy, I help make your technology accessible to all users.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in animate-delay-300">
               <Button asChild size="lg" className="gap-2">
                 <a href="#portfolio">
-                  View My Work
+                  View my work
                   <ArrowRight className="h-4 w-4" />
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="gap-2">
-                <a href="#contact">
+                <a href="#about">
                   <FileText className="h-4 w-4" />
-                  Download Resume
+                  Download CV
                 </a>
               </Button>
             </div>
@@ -53,13 +53,13 @@ const Hero = () => {
                   <div className="code-block">
                     <p className="text-blue-400">// Portfolio highlights</p>
                     <p className="text-green-400 mt-2">const <span className="text-yellow-300">skills</span> = [</p>
-                    <p className="ml-4 text-orange-300">'API Documentation',</p>
-                    <p className="ml-4 text-orange-300">'Technical Tutorials',</p>
-                    <p className="ml-4 text-orange-300">'Content Strategy',</p>
-                    <p className="ml-4 text-orange-300">'Developer Experience'</p>
+                    <p className="ml-4 text-orange-300">'API documentation',</p>
+                    <p className="ml-4 text-orange-300">'Technical tutorials',</p>
+                    <p className="ml-4 text-orange-300">'Content strategy',</p>
+                    <p className="ml-4 text-orange-300">'Developer experience'</p>
                     <p className="text-green-400">];</p>
                     <p className="text-green-400 mt-2">function <span className="text-yellow-300">connect</span>() {'{'};</p>
-                    <p className="ml-4 text-slate-200">return "Let's work together!";</p>
+                    <p className="ml-4 text-slate-200">return "Let's collaborate!";</p>
                     <p className="text-green-400">{'}'}</p>
                   </div>
                 </div>
