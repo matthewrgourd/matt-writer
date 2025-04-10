@@ -6,7 +6,7 @@ This site showcases my writing style, technical documentation capabilities, and 
 
 ## 🌐 Live preview
 
-[www.mattgourd.com](https://www.mattgourd.com) — link to deployed site
+- **[www.mattgourd.com](https://www.mattgourd.com)** — link to deployed site
 
 ## ✍️ About the site
 
