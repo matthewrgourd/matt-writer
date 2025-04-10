@@ -1,9 +1,5 @@
-
 import React from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Github, Globe, Linkedin, Mail, MessageSquare, Send } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -21,7 +17,6 @@ const Contact = () => {
           <div className="lg:w-1/3">
             <div className="bg-white rounded-lg border border-slate-200 p-6 shadow-sm">
               <h3 className="text-xl font-bold mb-6">Contact information</h3>
-
               <h4 className="font-medium text-slate-900 mb-3">Connect with me</h4>
               <div className="flex gap-3">
                 <a
@@ -43,59 +38,35 @@ const Contact = () => {
           <div className="lg:w-2/3">
             <div className="bg-white rounded-lg border border-slate-200 p-6 shadow-sm">
               <h3 className="text-xl font-bold mb-6">Send me a message</h3>
-
-              <form>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                  <div className="space-y-2">
-                    <label htmlFor="name" className="block text-sm font-medium text-slate-700">
-                      Name
-                    </label>
-                    <Input
-                      id="name"
-                      placeholder="Your name"
-                      className="w-full"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <label htmlFor="email" className="block text-sm font-medium text-slate-700">
-                      Email
-                    </label>
-                    <Input
-                      id="email"
+              <form action="https://formspree.io/f/xzblqeeb" method="POST">
+                <div className="space-y-4">
+                  <label className="block">
+                    Your email:
+                    <input
                       type="email"
-                      placeholder="Your email address"
-                      className="w-full"
+                      name="email"
+                      className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                      placeholder="you@example.com"
+                      required
                     />
-                  </div>
-                </div>
-
-                <div className="space-y-2 mb-4">
-                  <label htmlFor="subject" className="block text-sm font-medium text-slate-700">
-                    Subject
                   </label>
-                  <Input
-                    id="subject"
-                    placeholder="Message subject"
-                    className="w-full"
-                  />
-                </div>
-
-                <div className="space-y-2 mb-6">
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-700">
-                    Message
+                  <label className="block">
+                    Your message:
+                    <textarea
+                      name="message"
+                      className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                      placeholder="Your message"
+                      rows={6}
+                      required
+                    ></textarea>
                   </label>
-                  <Textarea
-                    id="message"
-                    placeholder="Your message"
-                    className="w-full min-h-[150px]"
-                  />
+                  <button
+                    type="submit"
+                    className="mt-4 inline-flex items-center rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 transition-colors"
+                  >
+                    Send
+                  </button>
                 </div>
-
-                <Button type="submit" className="w-full md:w-auto flex items-center gap-2">
-                  <Send className="h-4 w-4" />
-                  Send message
-                </Button>
               </form>
             </div>
           </div>
