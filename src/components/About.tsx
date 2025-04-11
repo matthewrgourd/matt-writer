@@ -22,7 +22,7 @@ const About = () => {
               <div className="px-6 pt-0 pb-6 relative">
                 <div className="h-24 w-24 rounded-full border-4 border-white overflow-hidden -mt-12 mb-4 bg-white">
                   <img
-                    src="https://matthewrgourd.github.io/portfolio/images/matt-gourd.png?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzM5MDUxMA&ixlib=rb-4.0.3&q=80&w=300"
+                    src="matt-profile-photo.jpg"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
