@@ -22,7 +22,7 @@ const About = () => {
               <div className="px-6 pt-0 pb-6 relative">
                 <div className="h-24 w-24 rounded-full border-4 border-white overflow-hidden -mt-12 mb-4 bg-white">
                   <img
-                    src="matt-profile-photo.jpg"
+                    src="matt-profile-photo.png"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
