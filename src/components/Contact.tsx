@@ -9,7 +9,7 @@ const Contact = () => {
           <h2 className="text-3xl font-bold mb-4">Get in touch</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-            Have a project in mind or want to learn more about my services? Let's connect.
+          Have a question or just want to say hello? Feel free to reach out.
           </p>
         </div>
 
