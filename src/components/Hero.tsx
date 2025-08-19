@@ -51,7 +51,6 @@ const Hero = () => {
                 </div>
                 <div className="p-6">
                 <div className="code-block">
-                  <p className="text-blue-400">// matt-writer.js</p>
                   <p className="text-blue-400 mt-2">// What I do best</p>
                   <p className="text-green-400 mt-2">const <span className="text-yellow-300">skills</span> = {'{'}</p>
                   <p className="ml-4 text-purple-300">documentation: <span className="text-orange-300">['APIs', 'SDKs', 'developer guides']</span>,</p>
