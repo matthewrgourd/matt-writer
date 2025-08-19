@@ -47,21 +47,23 @@ const Hero = () => {
                     <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                     <div className="w-3 h-3 rounded-full bg-green-500"></div>
                   </div>
-                  <span>portfolio.md</span>
+                  <span>matt-writer.js</span>
                 </div>
                 <div className="p-6">
-                  <div className="code-block">
-                    <p className="text-blue-400">// Portfolio highlights</p>
-                    <p className="text-green-400 mt-2">const <span className="text-yellow-300">skills</span> = [</p>
-                    <p className="ml-4 text-orange-300">'API documentation',</p>
-                    <p className="ml-4 text-orange-300">'Technical tutorials',</p>
-                    <p className="ml-4 text-orange-300">'Content strategy',</p>
-                    <p className="ml-4 text-orange-300">'Developer experience'</p>
-                    <p className="text-green-400">];</p>
-                    <p className="text-green-400 mt-2">function <span className="text-yellow-300">connect</span>() {'{'}</p>
-                    <p className="ml-4 text-slate-200">return "Let's collaborate!";</p>
-                    <p className="text-green-400">{'}'}</p>
-                  </div>
+                <div className="code-block">
+                  <p className="text-blue-400">// matt-writer.js</p>
+                  <p className="text-blue-400 mt-2">// What I do best</p>
+                  <p className="text-green-400 mt-2">const <span className="text-yellow-300">skills</span> = {'{'}</p>
+                  <p className="ml-4 text-purple-300">documentation: <span className="text-orange-300">['APIs', 'SDKs', 'developer guides']</span>,</p>
+                  <p className="ml-4 text-purple-300">strategy: <span className="text-orange-300">['content architecture', 'user research']</span>,</p>
+                  <p className="ml-4 text-purple-300">tools: <span className="text-orange-300">['docs-as-code', 'CI/CD workflows']</span></p>
+                  <p className="text-green-400">{'};'}</p>
+                  <p className="text-blue-400 mt-4">// Ready to help?</p>
+                  <p className="text-green-400 mt-2">function <span className="text-yellow-300">startProject</span>() {'{'}</p>
+                  <p className="ml-4 text-slate-200">return "Let's make your docs actually useful";</p>
+                  <p className="text-green-400">{'}'}</p>
+                </div>
+              </div>
                 </div>
               </div>
             </div>
