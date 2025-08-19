@@ -57,7 +57,7 @@ const Hero = () => {
                   <p className="ml-4 text-purple-300">strategy: <span className="text-orange-300">['content architecture', 'user research']</span>,</p>
                   <p className="ml-4 text-purple-300">tools: <span className="text-orange-300">['docs-as-code', 'CI/CD workflows']</span></p>
                   <p className="text-green-400">{'};'}</p>
-                  <p className="text-blue-400 mt-4">// Ready to help?</p>
+                  <p className="text-blue-400 mt-4">// Ready to collaborate?</p>
                   <p className="text-green-400 mt-2">function <span className="text-yellow-300">startProject</span>() {'{'}</p>
                   <p className="ml-4 text-slate-200">return "Let's make your docs actually useful";</p>
                   <p className="text-green-400">{'}'}</p>
