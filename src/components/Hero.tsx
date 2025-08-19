@@ -21,7 +21,7 @@ const Hero = () => {
               Bridging the gap between <span className="text-blue-600">code</span> and <span className="text-blue-600">communication</span>
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl animate-fade-in animate-delay-200">
-              I write clear, concise documentation for complex software products. With a wealth of experience in API documentation, developer guides, and technical content strategy, I help make your technology accessible to all users.
+            Your documentation shouldn't make developers cry. I write clear, friendly docs that actually help people build things with your APIs. Whether you're a fintech startup trying to get developers onboard, or an enterprise platform drowning in support tickets, good documentation isn't just nice to have - it's your secret weapon for user adoption.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in animate-delay-300">
               <Button asChild size="lg" className="gap-2">
