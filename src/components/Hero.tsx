@@ -18,10 +18,10 @@ const Hero = () => {
               Documentation Manager
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight animate-fade-in animate-delay-100">
-              Bridging the gap between <span className="text-blue-600">code</span> and <span className="text-blue-600">communication</span>
+              Expert <span className="text-blue-600">Technical Writer</span> & <span className="text-blue-600">Documentation Manager</span>
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl animate-fade-in animate-delay-200">
-            Your documentation shouldn't make developers cry. I write clear, friendly docs that actually help people build things with your APIs. Whether you're a fintech startup trying to get developers onboard, or an enterprise platform drowning in support tickets, good documentation isn't just nice to have - it's your secret weapon for user adoption.
+            Transform complex APIs into developer-friendly documentation that drives adoption. With 20+ years of technical writing experience, I specialize in API documentation, developer guides, and content strategy for fintech and enterprise platforms. Your docs become your competitive advantage.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in animate-delay-300">
               <Button asChild size="lg" className="gap-2">
