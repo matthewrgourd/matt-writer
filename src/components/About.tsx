@@ -11,7 +11,7 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-4">About me</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-          I turn tech jargon into English. 20+ years of wrestling with APIs, SDKs, and enterprise software has taught me that good documentation isn't about showing off how clever you are - it's about helping someone else get their job done without wanting to throw their laptop out the window.
+          I turn tech jargon into English. 20+ years wrestling with APIs, SDKs, and enterprise software has taught me that good documentation isn't about showing off how clever you are - it's about helping someone get their job done without wanting to throw their laptop out the window.
           </p>
         </div>
 
