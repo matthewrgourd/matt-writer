@@ -63,7 +63,6 @@ const Hero = () => {
                   <p className="ml-4 text-slate-200">return "Let's make your docs actually useful";</p>
                   <p className="text-green-400">{'}'}</p>
                 </div>
-              </div>
                 </div>
               </div>
             </div>
