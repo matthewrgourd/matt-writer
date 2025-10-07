@@ -52,7 +52,7 @@ const About = () => {
               With over two decades of experience as a technical writer, I've had the privilege of helping some remarkable companies, ranging from small startups to FTSE 100s. Creating documentation for software developers is where I excel, and my approachable and amiable nature makes working with me a breeze.
             </p>
             <p className="text-slate-700 mb-6 leading-relaxed">
-              Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to DJ-ing, creating electronic music, and runnning half-marathons in support of charitable causes. These pursuits drive and inspire me.
+              Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to DJ-ing, creating electronic music, and running half-marathons in support of charitable causes. These pursuits drive and inspire me.
             </p>
 
             <h4 className="text-xl font-bold mt-8 mb-4">Work experience</h4>
