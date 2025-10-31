@@ -30,7 +30,7 @@ const skillsCategories = [
     title: "Technical understanding",
     icon: <Code className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Reading and understanding code (JavaScript, Python, Java)",
+      "Reading and understanding code",
       "REST and GraphQL API concepts",
       "Version control with Git",
       "CI/CD pipelines and deployment processes",

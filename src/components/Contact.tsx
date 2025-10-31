@@ -13,10 +13,10 @@ const Contact = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl font-bold mb-4">Let's connect</h2>
+          <h2 className="text-3xl font-bold mb-4">Get in touch</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-          Looking for someone to help with documentation? I'm always interested in new projects and collaboration opportunities. Whether you need help with API docs, developer portals, or building a documentation team, let's talk.
+          I'm always happy to connect with other documentation professionals, discuss technical writing challenges, or chat about developer experience. Feel free to reach out.
           </p>
         </motion.div>
 

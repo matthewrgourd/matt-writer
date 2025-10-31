@@ -18,7 +18,7 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-4">About me</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-          I help engineering teams share their work with the world through clear, useful documentation. Whether it's API docs, developer guides, or technical content, I work alongside developers to understand complex systems and translate them into resources that help users succeed. Good documentation is a team effort, and I enjoy the collaborative problem-solving that comes with it.
+          I'm a documentation manager with 20+ years of experience working with engineering teams to create clear, useful technical content. From API docs to developer guides, I work alongside developers to understand complex systems and create resources that help users succeed. I believe great documentation is a team effort, and I thrive on the collaborative problem-solving that comes with it.
           </p>
         </motion.div>
 

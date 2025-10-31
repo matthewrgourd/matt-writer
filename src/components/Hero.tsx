@@ -43,7 +43,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-            Twenty years working with engineering teams has taught me that great documentation bridges the gap between brilliant technical work and the people who need to use it. I collaborate with developers to understand complex systems, then create docs that actually help users succeed. The best documentation makes everyone's life easier - from engineers who get fewer support questions to developers who can integrate your API without the trial-and-error phase.
+            I'm a documentation manager with 20+ years of experience creating technical content that developers actually want to read. I work with engineering teams to understand their systems and translate that knowledge into documentation that helps users succeed. Great documentation reduces support burden for the team and makes integration easier for customers - a win for everyone.
             </motion.p>
             <motion.div
               className="flex flex-wrap gap-4"
