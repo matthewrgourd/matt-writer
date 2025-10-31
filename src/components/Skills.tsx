@@ -16,69 +16,69 @@ import {
 
 const skillsCategories = [
   {
-    title: "Technical writing",
+    title: "Technical documentation",
     icon: <FileText className="h-8 w-8 text-blue-600" />,
     skills: [
-      "API documentation",
-      "Developer guides",
-      "Release notes",
-      "Knowledge base articles",
-      "Technical blog posts"
+      "API documentation and reference guides",
+      "Developer tutorials and getting started guides",
+      "Release notes and changelog management",
+      "Technical blog posts and articles",
+      "SDK and library documentation"
     ]
   },
   {
-    title: "Development knowledge",
+    title: "Technical understanding",
     icon: <Code className="h-8 w-8 text-blue-600" />,
     skills: [
-      "HTML/CSS/JavaScript",
-      "REST APIs",
-      "GraphQL",
-      "Git and version control",
-      "CI/CD pipelines"
+      "Reading and understanding code (JavaScript, Python, Java)",
+      "REST and GraphQL API concepts",
+      "Version control with Git",
+      "CI/CD pipelines and deployment processes",
+      "Software architecture patterns"
     ]
   },
   {
-    title: "Content strategy",
+    title: "Information architecture",
     icon: <LayoutTemplate className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Information architecture",
-      "User personas",
-      "Content audits",
-      "Style guides",
-      "SEO optimisation"
+      "Content organization and navigation design",
+      "User research and persona development",
+      "Content audits and gap analysis",
+      "Style guide creation and maintenance",
+      "Search optimization for technical content"
     ]
   },
   {
-    title: "Tools and platforms",
+    title: "Documentation tools",
     icon: <Laptop className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Docs-as-Code: Markdown/AsciiDoc",
-      "DITA/XML; Diátaxis",
-      "AI/LLMs: Copilot, custom GPTs, RAGs",
-      "Swagger/OpenAPI",
-      "GitHub/GitLab"
+      "Docs-as-code with Markdown and Git",
+      "Static site generators (Docusaurus, MkDocs)",
+      "OpenAPI/Swagger for API documentation",
+      "DITA and structured authoring",
+      "AI tools for content assistance"
     ]
   },
   {
     title: "UX writing",
     icon: <PenTool className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Interface copy",
-      "Error messages",
-      "Tooltips and help text",
-      "Onboarding flows",
-      "Microcopy"
+      "Clear, actionable error messages",
+      "Informative tooltips and help text",
+      "Intuitive button and menu labels",
+      "User onboarding flows",
+      "Microcopy for UI elements"
     ]
   },
   {
     title: "Collaboration",
     icon: <Users className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Cross-functional teams",
-      "Developer relations",
-      "Subject matter experts",
-      "Stakeholder management",
-      "User testing"
+      "Working with engineering teams",
+      "Cross-functional stakeholder management",
+      "Technical interviews and knowledge transfer",
+      "Building documentation culture",
+      "User testing and feedback integration"
     ]
   }
 ];
@@ -119,7 +119,7 @@ const Skills = () => {
           <h2 className="text-3xl font-bold mb-4">Skills and expertise</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-            Combining technical knowledge with writing expertise and AI to create exceptional docs.
+            Over twenty years, I've developed a diverse skill set spanning technical writing, information architecture, and cross-functional collaboration. Here's what I bring to documentation projects.
           </p>
         </motion.div>
 
@@ -182,9 +182,9 @@ const Skills = () => {
           <div className="bg-blue-50 border border-blue-100 rounded-xl p-8">
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="mb-6 md:mb-0 md:mr-6">
-                <h3 className="text-2xl font-bold mb-3">The documentation process</h3>
+                <h3 className="text-2xl font-bold mb-3">My documentation approach</h3>
                 <p className="text-slate-600 max-w-2xl">
-                  My methodical approach to documentation ensures complete, accurate, and user-friendly content at every stage of the product lifecycle.
+                  A collaborative process for creating technical documentation that serves both users and the teams who maintain it.
                 </p>
               </div>
               <div className="flex-shrink-0 animate-pulse-subtle">
@@ -194,10 +194,10 @@ const Skills = () => {
 
             <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-4">
               {[
-                { num: 1, title: "Research", desc: "Understand the product, audience, and technical requirements" },
-                { num: 2, title: "Plan", desc: "Structure content and create information architecture" },
-                { num: 3, title: "Create", desc: "Write clear, concise, and technically accurate content" },
-                { num: 4, title: "Review and refine", desc: "Test, gather feedback, and iterate for continuous improvement" }
+                { num: 1, title: "Research", desc: "Collaborate with engineers to understand the system. Review code, architecture, and existing documentation. Identify user needs and pain points." },
+                { num: 2, title: "Plan", desc: "Design documentation structure based on user journeys. Create content outlines. Establish review cycles with stakeholders." },
+                { num: 3, title: "Write", desc: "Create clear, user-focused content. Include practical examples. Explain concepts progressively from simple to complex." },
+                { num: 4, title: "Iterate", desc: "Gather feedback from technical reviewers and users. Refine based on testing. Keep docs updated as products evolve." }
               ].map((step, index) => (
                 <motion.div
                   key={step.num}

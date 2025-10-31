@@ -27,7 +27,7 @@ const Hero = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
             >
-              Documentation Manager
+              Technical Documentation Manager
             </motion.div>
             <motion.h1
               className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
@@ -35,7 +35,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              Expert <span className="text-blue-600">Technical Writer</span> & <span className="text-blue-600">Documentation Manager</span>
+              Building <span className="text-blue-600">documentation</span> that developers <span className="text-blue-600">actually use</span>
             </motion.h1>
             <motion.p
               className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl"
@@ -43,7 +43,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-            Transform complex APIs into developer-friendly documentation that drives adoption. With 20+ years of technical writing experience, I specialize in API documentation, developer guides, and content strategy for fintech and enterprise platforms. Your docs become your competitive advantage.
+            Twenty years working with engineering teams has taught me that great documentation bridges the gap between brilliant technical work and the people who need to use it. I collaborate with developers to understand complex systems, then create docs that actually help users succeed. The best documentation makes everyone's life easier - from engineers who get fewer support questions to developers who can integrate your API without the trial-and-error phase.
             </motion.p>
             <motion.div
               className="flex flex-wrap gap-4"
@@ -82,15 +82,18 @@ const Hero = () => {
                 </div>
                 <div className="p-6">
                 <div className="code-block">
-                  <p className="text-blue-400 mt-2">// What I do best</p>
-                  <p className="text-green-400 mt-2">const <span className="text-yellow-300">skills</span> = {'{'}</p>
-                  <p className="ml-4 text-purple-300">documentation: <span className="text-orange-300">['APIs', 'SDKs', 'developer guides']</span>,</p>
-                  <p className="ml-4 text-purple-300">strategy: <span className="text-orange-300">['content architecture', 'user research']</span>,</p>
-                  <p className="ml-4 text-purple-300">tools: <span className="text-orange-300">['docs-as-code', 'CI/CD workflows']</span></p>
+                  <p className="text-blue-400 mt-2">// What I bring to your team</p>
+                  <p className="text-green-400 mt-2">const <span className="text-yellow-300">documentation</span> = {'{'}</p>
+                  <p className="ml-4 text-purple-300">understandsCode: <span className="text-orange-300">true</span>,</p>
+                  <p className="ml-4 text-purple-300">speaksEngineer: <span className="text-orange-300">true</span>,</p>
+                  <p className="ml-4 text-purple-300">writesForHumans: <span className="text-orange-300">true</span>,</p>
+                  <p className="ml-4 text-purple-300">experience: <span className="text-orange-300">"20+ years"</span></p>
                   <p className="text-green-400">{'};'}</p>
-                  <p className="text-blue-400 mt-4">// Ready to collaborate?</p>
-                  <p className="text-green-400 mt-2">function <span className="text-yellow-300">startProject</span>() {'{'}</p>
-                  <p className="ml-4 text-slate-200">return "Let's make your docs actually useful";</p>
+                  <p className="text-blue-400 mt-4">// The documentation approach</p>
+                  <p className="text-green-400 mt-2">function <span className="text-yellow-300">createGreatDocs</span>() {'{'}</p>
+                  <p className="ml-4 text-slate-200">collaborateWithEngineers();</p>
+                  <p className="ml-4 text-slate-200">understandUserNeeds();</p>
+                  <p className="ml-4 text-slate-200">return <span className="text-orange-300">"docs that actually help"</span>;</p>
                   <p className="text-green-400">{'}'}</p>
                 </div>
                 </div>

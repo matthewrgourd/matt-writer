@@ -18,7 +18,7 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-4">About me</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-          I turn tech jargon into English. 20+ years wrestling with APIs and enterprise software has taught me that good documentation isn't about showing how clever you are - it's about helping someone get their job done without wanting to throw their laptop out the window.
+          I help engineering teams share their work with the world through clear, useful documentation. Whether it's API docs, developer guides, or technical content, I work alongside developers to understand complex systems and translate them into resources that help users succeed. Good documentation is a team effort, and I enjoy the collaborative problem-solving that comes with it.
           </p>
         </motion.div>
 
@@ -66,12 +66,12 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-2xl font-bold mb-4">My story</h3>
+            <h3 className="text-2xl font-bold mb-4">Background</h3>
             <p className="text-slate-700 mb-6 leading-relaxed">
-              With over two decades of experience as a technical writer, I've had the privilege of helping some remarkable companies, ranging from small startups to FTSE 100s. Creating documentation for software developers is where I excel, and my approachable and amiable nature makes working with me a breeze.
+              Over twenty years, I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. Each project has taught me something new about making technical information accessible and useful.
             </p>
             <p className="text-slate-700 mb-6 leading-relaxed">
-              Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to DJ-ing, creating electronic music, and running half-marathons in support of charitable causes. These pursuits drive and inspire me.
+            Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to DJ-ing, creating electronic music, and running half-marathons in support of charitable causes. These pursuits drive and inspire me.
             </p>
 
             <h4 className="text-xl font-bold mt-8 mb-4">Work experience</h4>
@@ -82,18 +82,18 @@ const About = () => {
                 <p className="text-blue-600 mb-1">Backbase (2023 - present)</p>
 
               <p className="text-slate-600 mb-3">
-                    Manage and mentor a team of technical writers, encouraging performance, cohesion, and professional growth.
+                    Lead a documentation team, working closely with engineering, product, and QA to ensure our technical content serves users effectively while staying current with product changes.
                   </p>
 
                   <ul className="space-y-2">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Champion documentation quality through consistent standards, rationalised processes, and adherence to internal style guides</span>
+                    <span className="text-slate-700">Established documentation standards and processes that improved consistency and quality across all technical content</span>
                   </li>
 
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Partner with backend and frontend engineers to capture and translate complex technical concepts into clear, user-focused documentation</span>
+                    <span className="text-slate-700">Built collaborative workflows with engineering teams to capture knowledge and maintain accurate, up-to-date documentation</span>
                   </li>
                 </ul>
               </div>
@@ -102,25 +102,25 @@ const About = () => {
                 <h5 className="font-bold text-lg">Senior Technical Writer</h5>
                 <p className="text-blue-600 mb-1">Backbase (2021 - 2023)</p>
                 <p className="text-slate-600 mb-3">
-                  Steered the development of loan origination software documentation for global banking clients, ensuring clarity and usability.
+                  Created technical documentation for banking software, working with engineering teams to document complex financial systems and APIs in a highly regulated environment.
                 </p>
                 <ul className="space-y-2">
 
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Standardised documentation structure and consistency using the Google developer documentation style guide</span>
+                    <span className="text-slate-700">Introduced Google's style guide and built team consensus around documentation standards, resulting in more consistent content</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Liaised with product, QA, and design teams to formulate content strategy and adopt best practices in documentation</span>
+                    <span className="text-slate-700">Developed content strategy by collaborating with Product, Engineering, and QA to ensure accurate feature documentation</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Introduced internal process improvements in documentation planning, peer review, and stakeholder engagement</span>
+                    <span className="text-slate-700">Implemented peer review process that significantly improved documentation quality and caught technical errors early</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Joined forces with frontend engineers to refine in-product UX copy, maximising alignment with user needs and design principles</span>
+                    <span className="text-slate-700">Improved UX copy throughout the product, making error messages and interface text more helpful and actionable</span>
                   </li>
                 </ul>
               </div>

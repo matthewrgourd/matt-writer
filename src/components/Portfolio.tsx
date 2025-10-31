@@ -7,25 +7,25 @@ import { Book, ExternalLink, FileText, Github } from 'lucide-react';
 
 const portfolioItems = [
   {
-    title: "Launched a developer portal",
-    description: "Created a comprehensive developer portal for Viva Wallet clients to get help with environment setup, plugin integration, payment tools, card issuing, and POS terminals.",
-    tags: ["Onboarding", "Developer experience", "Help guides"],
+    title: "Developer portal from the ground up",
+    description: "Built a comprehensive developer portal for a payments platform, transforming outdated documentation into a modern, searchable resource. Worked with engineering teams to create getting-started guides, API references, and integration tutorials that reduced onboarding time and support requests.",
+    tags: ["Developer experience", "Portal design", "API documentation"],
     link: "https://developer.viva.com",
     type: "Developer portal"
   },
   {
-    title: "Overhauled API documentation",
-    description: "Led a complete revamp of the company's API documentation, re-writing OpenAPI specs, and using Redoc to display them consistently and in a user-friendly manner.",
-    tags: ["API", "OpenAPI", "Technical writing"],
+    title: "OpenAPI-driven API documentation",
+    description: "Collaborated with engineering to consolidate and standardize API documentation using OpenAPI specifications and Redoc. Created accurate, interactive API docs with code examples that stay in sync with the codebase, making integration easier for developers.",
+    tags: ["OpenAPI", "API reference", "Developer tools"],
     link: "https://developer.viva.com/apis-for-payments/payment-api",
-    type: "Documentation"
+    type: "API documentation"
   },
   {
-    title: "Contributed to a knowledge base",
-    description: "Designed and wrote multiple knowledge base articles for BT Business products and services, creating a searchable database of troubleshooting guides and feature documentation.",
-    tags: ["Knowledge base", "Product documentation", "FAQs"],
+    title: "Enterprise knowledge base",
+    description: "Developed comprehensive troubleshooting guides and FAQs for enterprise telecom products. Created a searchable knowledge base that empowered support teams and reduced ticket resolution time by giving customers self-service resources.",
+    tags: ["Knowledge management", "Support content", "Self-service"],
     link: "https://business.bt.com/help/home",
-    type: "FAQs"
+    type: "Support documentation"
   }
 ];
 
@@ -62,10 +62,10 @@ const Portfolio = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl font-bold mb-4">Portfolio</h2>
+          <h2 className="text-3xl font-bold mb-4">Featured work</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-            A selection of my technical writing projects and documentation work.
+            Recent documentation projects spanning developer portals, API references, and enterprise knowledge bases. Each project focused on making technical information accessible and useful for its audience.
           </p>
         </motion.div>
 
