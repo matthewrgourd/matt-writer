@@ -7,7 +7,7 @@ import { Book, ExternalLink, FileText, Github } from 'lucide-react';
 
 const portfolioItems = [
   {
-    title: "Developer portal from the ground up",
+    title: "New developer portal",
     description: "Built a comprehensive developer portal for a payments platform, transforming outdated documentation into a modern, searchable resource. Worked with engineering teams to create getting-started guides, API references, and integration tutorials that reduced onboarding time and support requests.",
     tags: ["Developer experience", "Portal design", "API documentation"],
     link: "https://developer.viva.com",

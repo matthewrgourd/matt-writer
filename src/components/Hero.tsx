@@ -27,7 +27,7 @@ const Hero = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
             >
-              Technical Documentation Manager
+              Senior Technical Writer
             </motion.div>
             <motion.h1
               className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
@@ -43,7 +43,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-            I'm a documentation manager with 20+ years of experience creating technical content that developers actually want to read. I work with engineering teams to understand their systems and translate that knowledge into documentation that helps users succeed. Great documentation reduces support burden for the team and makes integration easier for customers - a win for everyone.
+            I'm a senior technical writer with 20+ years of experience creating technical content that developers actually want to read. I work with engineering teams to understand their systems and translate that knowledge into documentation that helps users succeed. Great documentation reduces support burden for the team and makes integration easier for customers - a win for everyone.
             </motion.p>
             <motion.div
               className="flex flex-wrap gap-4"
