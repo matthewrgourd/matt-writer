@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Check, Clock, FileText, Gift, Mail, MapPin } from 'lucide-react';
+import { Clock, FileText, Gift, Mail, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const About = () => {
@@ -68,63 +68,11 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold mb-4">Background</h3>
             <p className="text-slate-700 mb-6 leading-relaxed">
-              Over twenty years, I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. Each project has taught me something new about making technical information accessible and useful.
+              Over 20+ years, I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. Each project has taught me something new about making technical information accessible and useful.
             </p>
             <p className="text-slate-700 mb-6 leading-relaxed">
             Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to DJ-ing, creating electronic music, and running half-marathons in support of charitable causes. These pursuits drive and inspire me.
             </p>
-
-            <h4 className="text-xl font-bold mt-8 mb-4">Work experience</h4>
-
-            <div className="space-y-6">
-              <div className="border-l-2 border-blue-600 pl-4">
-                <h5 className="font-bold text-lg">Technical Documentation Manager</h5>
-                <p className="text-blue-600 mb-1">Backbase (2023 - present)</p>
-
-              <p className="text-slate-600 mb-3">
-                    Lead a documentation team, working closely with engineering, product, and QA to ensure our technical content serves users effectively while staying current with product changes.
-                  </p>
-
-                  <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Established documentation standards and processes that improved consistency and quality across all technical content</span>
-                  </li>
-
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Built collaborative workflows with engineering teams to capture knowledge and maintain accurate, up-to-date documentation</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="border-l-2 border-blue-600 pl-4">
-                <h5 className="font-bold text-lg">Senior Technical Writer</h5>
-                <p className="text-blue-600 mb-1">Backbase (2021 - 2023)</p>
-                <p className="text-slate-600 mb-3">
-                  Created technical documentation for banking software, working with engineering teams to document complex financial systems and APIs in a highly regulated environment.
-                </p>
-                <ul className="space-y-2">
-
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Introduced Google's style guide and built team consensus around documentation standards, resulting in more consistent content</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Developed content strategy by collaborating with Product, Engineering, and QA to ensure accurate feature documentation</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Implemented peer review process that significantly improved documentation quality and caught technical errors early</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-700">Improved UX copy throughout the product, making error messages and interface text more helpful and actionable</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
 
             <h4 className="text-xl font-bold mt-8 mb-4">Education and certifications</h4>
 
