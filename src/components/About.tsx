@@ -41,7 +41,7 @@ const About = () => {
                   />
                 </div>
                 <h3 className="text-xl font-bold mb-1">Matt Gourd</h3>
-                <p className="text-slate-600 mb-4">Documentation Manager</p>
+                <p className="text-slate-600 mb-4">Senior Technical Writer</p>
 
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center text-sm text-slate-600">
@@ -50,7 +50,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center text-sm text-slate-600">
                     <Clock className="h-4 w-4 mr-2 text-blue-600" />
-                    20+ Years Experience
+                    20+ years experience
                   </div>
                 </div>
 
