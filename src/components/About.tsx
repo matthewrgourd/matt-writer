@@ -41,7 +41,7 @@ const About = () => {
                   />
                 </div>
                 <h3 className="text-xl font-bold mb-1">Matt Gourd</h3>
-                <p className="text-slate-600 mb-4">Documentation Manager</p>
+                <p className="text-slate-600 mb-4">Senior Technical Writer</p>
 
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center text-sm text-slate-600">
@@ -50,7 +50,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center text-sm text-slate-600">
                     <Clock className="h-4 w-4 mr-2 text-blue-600" />
-                    20+ Years Experience
+                    20+ years experience
                   </div>
                 </div>
 
@@ -68,10 +68,10 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold mb-4">Background</h3>
             <p className="text-slate-700 mb-6 leading-relaxed">
-              Over 20+ years, I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. Each project has taught me something new about making technical information accessible and useful.
+              For 20+ years, I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. Each project has taught me something new about making technical information accessible and useful.
             </p>
             <p className="text-slate-700 mb-6 leading-relaxed">
-            Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to DJ-ing, creating electronic music, and running half-marathons in support of charitable causes. These pursuits drive and inspire me.
+            Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to performing as a DJ, creating electronic music, and running half-marathons in support of charitable causes. These pursuits drive and inspire me.
             </p>
 
             <h4 className="text-xl font-bold mt-8 mb-4">Education and certifications</h4>
