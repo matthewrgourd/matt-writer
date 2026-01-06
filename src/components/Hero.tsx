@@ -43,7 +43,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-            I'm a senior technical writer with 20+ years of experience creating technical content that developers actually want to read. I work with engineering teams to understand their systems and translate that knowledge into documentation that helps users succeed. Great documentation reduces support burden for the team and makes integration easier for customers - a win for everyone.
+            Your documentation shouldn't be an afterthought—it's the bridge between brilliant engineering and successful adoption. With 20+ years turning complex systems into clear, actionable content, I help teams reduce support tickets, accelerate onboarding, and turn frustrated users into confident builders.
             </motion.p>
             <motion.div
               className="flex flex-wrap gap-4"
