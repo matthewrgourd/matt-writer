@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude setup-token:*)",
+      "Bash(npm run lint)",
+      "Bash(npx tsc:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh pr create:*)",
+      "Bash(brew install:*)",
+      "Bash(gh --version:*)",
+      "Bash(gh auth:*)",
+      "Bash(npm run build:*)",
+      "Bash(command -v nvm:*)",
+      "Bash(brew list:*)",
+      "Bash(node --version:*)",
+      "Bash(brew info:*)",
+      "Bash(brew unlink:*)",
+      "Bash(brew link:*)",
+      "Bash(npm --version:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}
