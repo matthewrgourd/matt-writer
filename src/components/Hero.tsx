@@ -43,7 +43,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-            Your documentation shouldn't be an afterthought. It's the bridge between brilliant engineering and successful adoption of software. With 20+ years writing about complex apps and producing clear, actionable content, I help teams reduce support tickets, accelerate onboarding, and turn frustrated users into confident ones.
+            Documentation shouldn't be an afterthought. It's the bridge between great engineering and successful adoption. With extensive experience explaining complex applications, I deliver clear, actionable content that reduces support tickets, accelerates onboarding, and turns frustrated users into confident ones.
             </motion.p>
             <motion.div
               className="flex flex-wrap gap-4"
