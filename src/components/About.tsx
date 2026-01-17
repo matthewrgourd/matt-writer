@@ -18,7 +18,7 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-4">About me</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-          I'm a senior technical writer with 20+ years of experience working with engineering teams to create clear, useful technical content. From API docs to developer guides, I work alongside developers to understand complex systems and create resources that help users succeed. I believe great documentation is a team effort, and I thrive on the collaborative problem-solving that comes with it.
+          I work alongside developers to understand complex systems and create resources that help users succeed. I believe great documentation is a team effort, and I thrive on the collaborative problem-solving that comes with it.
           </p>
         </motion.div>
 
@@ -68,7 +68,7 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold mb-4">Background</h3>
             <p className="text-slate-700 mb-6 leading-relaxed">
-              For 20+ years, I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. Each project has taught me something new about making technical information accessible and useful.
+              I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. Each project has taught me something new about making technical information accessible and useful.
             </p>
             <p className="text-slate-700 mb-6 leading-relaxed">
             Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to performing as a DJ, creating electronic music, and running half-marathons in support of charitable causes. These pursuits drive and inspire me.
