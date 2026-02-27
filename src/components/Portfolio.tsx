@@ -47,7 +47,7 @@ const Portfolio = () => {
       y: 0,
       transition: {
         duration: 0.5,
-        ease: "easeOut"
+        ease: [0.16, 1, 0.3, 1] as const
       }
     }
   };
@@ -65,7 +65,7 @@ const Portfolio = () => {
           <h2 className="text-3xl font-bold mb-4">Featured work</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-            Recent documentation projects spanning developer portals, API references, and enterprise knowledge bases. Each project focused on making technical information accessible and useful for its audience.
+            Recent documentation projects spanning an enterprise integration platform docs site, a payments developer portal, and OpenAPI-driven API references, all focused on making onboarding and integration clearer for technical teams.
           </p>
         </motion.div>
 
