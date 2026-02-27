@@ -7,6 +7,13 @@ import { Book, ExternalLink, FileText, Github } from 'lucide-react';
 
 const portfolioItems = [
   {
+    title: "Enterprise documentation site",
+    description: "Took over management of a technical documentation site for a new product area in a fintech company, ensuring consistency and accuracy across all documentation.",
+    tags: ["Developer experience", "Documentation site", "Documentation management"],
+    link: "https://grandcentral.backbase.io",
+    type: "Developer documentation"
+  }
+  {
     title: "New developer portal",
     description: "Built a comprehensive developer portal for a payments platform, transforming outdated documentation into a modern, searchable resource. Worked with engineering teams to create getting-started guides, API references, and integration tutorials that reduced onboarding time and support requests.",
     tags: ["Developer experience", "Portal design", "API documentation"],
@@ -19,13 +26,6 @@ const portfolioItems = [
     tags: ["OpenAPI", "API reference", "Developer tools"],
     link: "https://developer.viva.com/apis-for-payments/payment-api",
     type: "API documentation"
-  },
-  {
-    title: "Enterprise knowledge base",
-    description: "Developed comprehensive troubleshooting guides and FAQs for enterprise telecom products. Created a searchable knowledge base that empowered support teams and reduced ticket resolution time by giving customers self-service resources.",
-    tags: ["Knowledge management", "Support content", "Self-service"],
-    link: "https://business.bt.com/help/home",
-    type: "Support documentation"
   }
 ];
 
