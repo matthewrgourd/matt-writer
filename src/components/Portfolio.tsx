@@ -8,20 +8,20 @@ import { Book, ExternalLink, FileText, Github } from 'lucide-react';
 const portfolioItems = [
   {
     title: "Enterprise documentation site",
-    description: "Took over management of a technical documentation site for a new product area in a fintech company, ensuring consistency and accuracy across all documentation.",
+    description: "Took over management of a technical documentation site for a new integration platform in a fintech company, shaping clear conceptual overviews, quickstart guides, and implementation paths that help banking teams understand Grand Central's architecture, connectors, and APIs.",
     tags: ["Developer experience", "Documentation site", "Documentation management"],
     link: "https://grandcentral.backbase.io",
     type: "Developer documentation"
-  }
+  },
   {
-    title: "New developer portal",
+    title: "Developer portal",
     description: "Built a comprehensive developer portal for a payments platform, transforming outdated documentation into a modern, searchable resource. Worked with engineering teams to create getting-started guides, API references, and integration tutorials that reduced onboarding time and support requests.",
     tags: ["Developer experience", "Portal design", "API documentation"],
     link: "https://developer.viva.com",
     type: "Developer portal"
   },
   {
-    title: "OpenAPI-driven API documentation",
+    title: "API documentation",
     description: "Collaborated with engineering to consolidate and standardize API documentation using OpenAPI specifications and Redoc. Created accurate, interactive API docs with code examples that stay in sync with the codebase, making integration easier for developers.",
     tags: ["OpenAPI", "API reference", "Developer tools"],
     link: "https://developer.viva.com/apis-for-payments/payment-api",
