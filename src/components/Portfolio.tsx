@@ -7,10 +7,19 @@ import { Book, ExternalLink, FileText, Github } from 'lucide-react';
 
 const portfolioItems = [
   {
+    title: "API documentation platform",
+    description: "Built a reference implementation for a multi-product API documentation platform using Docusaurus and Scalar, with interactive API playgrounds, product-specific docs, and a deployment workflow designed for fast iteration and reliable publishing.",
+    tags: ["Docusaurus", "Scalar", "Vercel"],
+    link: "https://github.com/matthewrgourd/doc-platform",
+    websiteLink: "https://devdocify.com",
+    type: "Documentation platform"
+  },
+  {
     title: "Enterprise documentation site",
-    description: "Took over management of a technical documentation site for a new integration platform in a fintech company, shaping clear conceptual overviews, quickstart guides, and implementation paths that help banking teams understand Grand Central's architecture, connectors, and APIs.",
+    description: "Took over management of a technical documentation site for a new integration platform in a fintech company, shaping conceptual overviews, quickstart guides, and implementation paths that help banking teams understand Grand Central's architecture, connectors, and APIs.",
     tags: ["Developer experience", "Documentation site", "Documentation management"],
     link: "https://grandcentral.backbase.io",
+    primaryLinkLabel: "View website",
     type: "Developer documentation"
   },
   {
@@ -18,14 +27,8 @@ const portfolioItems = [
     description: "Built a comprehensive developer portal for a payments platform, transforming outdated documentation into a modern, searchable resource. Worked with engineering teams to create getting-started guides, API references, and integration tutorials that reduced onboarding time and support requests.",
     tags: ["Developer experience", "Portal design", "API documentation"],
     link: "https://developer.viva.com",
+    primaryLinkLabel: "View website",
     type: "Developer portal"
-  },
-  {
-    title: "API documentation",
-    description: "Collaborated with engineering to consolidate and standardize API documentation using OpenAPI specifications and Redoc. Created accurate, interactive API docs with code examples that stay in sync with the codebase, making integration easier for developers.",
-    tags: ["OpenAPI", "API reference", "Developer tools"],
-    link: "https://developer.viva.com/apis-for-payments/payment-api",
-    type: "API documentation"
   }
 ];
 
@@ -65,7 +68,7 @@ const Portfolio = () => {
           <h2 className="text-3xl font-bold mb-4">Featured work</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-            Recent documentation projects spanning an enterprise integration platform docs site, a payments developer portal, and OpenAPI-driven API references, all focused on making onboarding and integration clearer for technical teams.
+            Recent projects include a multi-product API documentation platform, an enterprise integration documentation site, and a payments developer portal, each designed to make onboarding and integration clearer for technical teams.
           </p>
         </motion.div>
 
@@ -87,6 +90,7 @@ const Portfolio = () => {
                     {item.type === "Content" && <FileText className="h-5 w-5 text-blue-600" />}
                     {item.type === "Process" && <Github className="h-5 w-5 text-blue-600" />}
                     {item.type === "Developer portal" && <FileText className="h-5 w-5 text-blue-600" />}
+                    {item.type === "Documentation platform" && <FileText className="h-5 w-5 text-blue-600" />}
                     {item.type === "FAQs" && <Book className="h-5 w-5 text-blue-600" />}
                   </div>
                   <Badge variant="outline" className="font-mono text-xs">
@@ -107,14 +111,25 @@ const Portfolio = () => {
                   ))}
                 </div>
               </CardContent>
-              <CardFooter>
+              <CardFooter className="flex-col items-start gap-1">
                 <a
                   href={item.link}
                   className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors group/link" target="_blank"
                 >
-                  View project
+                  {item.primaryLinkLabel || "View project"}
                   <ExternalLink className="ml-1 h-3 w-3 group-hover/link:translate-x-1 transition-transform" />
                 </a>
+                {item.websiteLink && (
+                  <a
+                    href={item.websiteLink}
+                    className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors group/link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View website
+                    <ExternalLink className="ml-1 h-3 w-3 group-hover/link:translate-x-1 transition-transform" />
+                  </a>
+                )}
               </CardFooter>
             </Card>
             </motion.div>

@@ -35,7 +35,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              Building <span className="text-blue-600">documentation</span> that developers <span className="text-blue-600">actually use</span>
+              Building <span className="text-blue-600">docs, tooling, and AI workflows</span> that developers <span className="text-blue-600">actually use</span>
             </motion.h1>
             <motion.p
               className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl"
@@ -43,7 +43,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-            Documentation shouldn't be an afterthought. It's the bridge between great engineering and successful adoption. With extensive experience explaining complex applications, I deliver clear, actionable content that reduces support tickets, accelerates onboarding, and turns frustrated users into confident ones.
+            Documentation shouldn't be an afterthought. It's the bridge between great engineering and successful adoption. I combine technical writing, docs-as-code implementation, and practical AI-assisted workflows to deliver clear, actionable content that reduces support tickets and accelerates onboarding.
             </motion.p>
             <motion.div
               className="flex flex-wrap gap-4"
@@ -86,6 +86,8 @@ const Hero = () => {
                   <p className="text-green-400 mt-2">const <span className="text-yellow-300">documentation</span> = {'{'}</p>
                   <p className="ml-4 text-purple-300">understandsCode: <span className="text-orange-300">true</span>,</p>
                   <p className="ml-4 text-purple-300">speaksEngineer: <span className="text-orange-300">true</span>,</p>
+                  <p className="ml-4 text-purple-300">buildsDocTooling: <span className="text-orange-300">true</span>,</p>
+                  <p className="ml-4 text-purple-300">usesAIResponsibly: <span className="text-orange-300">true</span>,</p>
                   <p className="ml-4 text-purple-300">writesForHumans: <span className="text-orange-300">true</span>,</p>
                   <p className="ml-4 text-purple-300">experience: <span className="text-orange-300">"20+ years"</span></p>
                   <p className="text-green-400">{'};'}</p>
