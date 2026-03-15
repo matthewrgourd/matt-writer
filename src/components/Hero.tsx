@@ -88,7 +88,7 @@ const Hero = () => {
                   <p className="ml-4 text-purple-300">speaksEngineer: <span className="text-orange-300">true</span>,</p>
                   <p className="ml-4 text-purple-300">buildsDocTooling: <span className="text-orange-300">true</span>,</p>
                   <p className="ml-4 text-purple-300">usesAIResponsibly: <span className="text-orange-300">true</span>,</p>
-                  <p className="ml-4 text-purple-300">writesForHumans: <span className="text-orange-300">true</span>,</p>
+                  <p className="ml-4 text-purple-300">writesForHumansAndAI: <span className="text-orange-300">true</span>,</p>
                   <p className="ml-4 text-purple-300">experience: <span className="text-orange-300">"20+ years"</span></p>
                   <p className="text-green-400">{'};'}</p>
                   <p className="text-blue-400 mt-4">// The documentation approach</p>

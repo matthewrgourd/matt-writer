@@ -10,6 +10,8 @@ const portfolioItems = [
     title: "API documentation platform",
     description: "Built a reference implementation for a multi-product API documentation platform using Docusaurus and Scalar, with interactive API playgrounds, product-specific docs, and a deployment workflow designed for fast iteration and reliable publishing.",
     tags: ["Docusaurus", "Scalar", "Vercel"],
+    image: "/placeholders/api-docs.png",
+    imageAlt: "Screenshot of API documentation platform",
     link: "https://github.com/matthewrgourd/doc-platform",
     websiteLink: "https://devdocify.com",
     type: "Documentation platform"
@@ -18,6 +20,8 @@ const portfolioItems = [
     title: "Enterprise documentation site",
     description: "Took over management of a technical documentation site for a new integration platform in a fintech company, shaping conceptual overviews, quickstart guides, and implementation paths that help banking teams understand Grand Central's architecture, connectors, and APIs.",
     tags: ["Developer experience", "Documentation site", "Documentation management"],
+    image: "/placeholders/grand-central-docs.png",
+    imageAlt: "Screenshot of enterprise documentation site",
     link: "https://grandcentral.backbase.io",
     primaryLinkLabel: "View website",
     type: "Developer documentation"
@@ -26,6 +30,8 @@ const portfolioItems = [
     title: "Developer portal",
     description: "Built a comprehensive developer portal for a payments platform, transforming outdated documentation into a modern, searchable resource. Worked with engineering teams to create getting-started guides, API references, and integration tutorials that reduced onboarding time and support requests.",
     tags: ["Developer experience", "Portal design", "API documentation"],
+    image: "/placeholders/viva-developer-portal.png",
+    imageAlt: "Screenshot of payments developer portal",
     link: "https://developer.viva.com",
     primaryLinkLabel: "View website",
     type: "Developer portal"
@@ -81,7 +87,15 @@ const Portfolio = () => {
         >
           {portfolioItems.map((item, index) => (
             <motion.div key={index} variants={itemVariants}>
-            <Card className="card-hover h-full group">
+            <Card className="card-hover h-full group overflow-hidden">
+              <div className="aspect-[16/9] bg-slate-100 border-b border-slate-200">
+                <img
+                  src={item.image}
+                  alt={item.imageAlt}
+                  className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+              </div>
               <CardHeader className="pb-3">
                 <div className="flex justify-between items-start mb-2">
                   <div className="transition-transform group-hover:scale-110 group-hover:rotate-3 duration-300">
