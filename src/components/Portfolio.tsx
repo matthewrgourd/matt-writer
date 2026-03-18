@@ -8,17 +8,17 @@ import { Book, ExternalLink, FileText, Github } from 'lucide-react';
 const portfolioItems = [
   {
     title: "API documentation platform",
-    description: "Built a reference implementation for a multi-product API documentation platform using Docusaurus and Scalar, with interactive API playgrounds, product-specific docs, and a deployment workflow designed for fast iteration and reliable publishing.",
+    description: "Built a product-focused API documentation platform using Docusaurus and Scalar, with a Diataxis-based docs structure, docset/version-aware information architecture, and explanatory API playground guidance for each product area.",
     tags: ["Docusaurus", "Scalar", "Vercel"],
     image: "/placeholders/api-docs.png",
     imageAlt: "Screenshot of API documentation platform",
-    link: "https://github.com/matthewrgourd/doc-platform",
+    link: "",
     websiteLink: "https://devdocify.com",
     type: "Documentation platform"
   },
   {
     title: "Enterprise documentation site",
-    description: "Took over management of a technical documentation site for a new integration platform in a fintech company, shaping conceptual overviews, quickstart guides, and implementation paths that help banking teams understand Grand Central's architecture, connectors, and APIs.",
+    description: "Lead technical writer for a fintech integration platform, overseeing conceptual overviews, quickstart guides, and implementation guidance to help banking teams understand Grand Central's architecture, connectors, and APIs.",
     tags: ["Developer experience", "Documentation site", "Documentation management"],
     image: "/placeholders/grand-central-docs.png",
     imageAlt: "Screenshot of enterprise documentation site",
@@ -28,7 +28,7 @@ const portfolioItems = [
   },
   {
     title: "Developer portal",
-    description: "Built a comprehensive developer portal for a payments platform, transforming outdated documentation into a modern, searchable resource. Worked with engineering teams to create getting-started guides, API references, and integration tutorials that reduced onboarding time and support requests.",
+    description: "Built a modern, searchable developer portal for a payments platform, replacing outdated documentation. Partnered with engineering teams to deliver clear getting-started guides, API references, and integration tutorials that cut onboarding time and reduced support requests.",
     tags: ["Developer experience", "Portal design", "API documentation"],
     image: "/placeholders/viva-developer-portal.png",
     imageAlt: "Screenshot of payments developer portal",
@@ -74,7 +74,7 @@ const Portfolio = () => {
           <h2 className="text-3xl font-bold mb-4">Portfolio</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-            Recent projects include a multi-product API documentation platform, an enterprise integration documentation site, and a payments developer portal, each designed to make onboarding and integration clearer for technical teams.
+            Recent projects include a multi-product API documentation platform, an enterprise integration docs site, and a payments developer portal, each built to make onboarding and integration faster and clearer for technical teams.
           </p>
         </motion.div>
 
@@ -126,13 +126,15 @@ const Portfolio = () => {
                 </div>
               </CardContent>
               <CardFooter className="flex-col items-start gap-1">
-                <a
-                  href={item.link}
-                  className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors group/link" target="_blank"
-                >
-                  {item.primaryLinkLabel || "View project"}
-                  <ExternalLink className="ml-1 h-3 w-3 group-hover/link:translate-x-1 transition-transform" />
-                </a>
+                {item.link && (
+                  <a
+                    href={item.link}
+                    className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors group/link" target="_blank"
+                  >
+                    {item.primaryLinkLabel || "View project"}
+                    <ExternalLink className="ml-1 h-3 w-3 group-hover/link:translate-x-1 transition-transform" />
+                  </a>
+                )}
                 {item.websiteLink && (
                   <a
                     href={item.websiteLink}

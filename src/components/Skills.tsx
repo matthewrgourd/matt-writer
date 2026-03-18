@@ -2,13 +2,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import {
-  Book,
   Code,
   FileText,
-  GitBranch,
   Laptop,
   LayoutTemplate,
-  MessageSquare,
   PenTool,
   Search,
   Users
@@ -16,69 +13,69 @@ import {
 
 const skillsCategories = [
   {
-    title: "Technical documentation",
+    title: "Documentation practice",
     icon: <FileText className="h-8 w-8 text-blue-600" />,
     skills: [
-      "API documentation and reference guides",
-      "Developer tutorials and getting started guides",
-      "Release notes and changelog management",
-      "Technical blog posts and articles",
-      "SDK and library documentation"
+      "Docs-as-Code",
+      "Documentation strategy",
+      "Information architecture",
+      "Documentation analytics",
+      "Onboarding journeys"
     ]
   },
   {
-    title: "Technical understanding",
+    title: "Developer documentation",
     icon: <Code className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Reading and understanding code",
-      "REST and GraphQL API concepts",
-      "Version control with Git",
-      "CI/CD pipelines and deployment processes",
-      "Software architecture patterns"
+      "Developer portals",
+      "API documentation",
+      "SDK documentation",
+      "OpenAPI and Swagger",
+      "CLI testing"
     ]
   },
   {
-    title: "Information architecture",
+    title: "Formats and specs",
     icon: <LayoutTemplate className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Content organization and navigation design",
-      "User research and persona development",
-      "Content audits and gap analysis",
-      "Style guide creation and maintenance",
-      "Search optimization for technical content"
+      "Markdown",
+      "AsciiDoc",
+      "MDX",
+      "JSON",
+      "YAML"
     ]
   },
   {
-    title: "Documentation tools",
+    title: "Static website generators",
     icon: <Laptop className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Docs-as-code with Markdown and Git",
-      "Static site generators (Docusaurus, MkDocs)",
-      "OpenAPI/Swagger for API documentation",
-      "DITA and structured authoring",
-      "AI tools for content assistance"
+      "Docusaurus",
+      "Hugo",
+      "Antora",
+      "Mintlify",
+      "Scalar"
     ]
   },
   {
-    title: "UX writing",
+    title: "Version control and workflow",
     icon: <PenTool className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Clear, actionable error messages",
-      "Informative tooltips and help text",
-      "Intuitive button and menu labels",
-      "User onboarding flows",
-      "Microcopy for UI elements"
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Branching and pull request workflows",
+      "Code review collaboration"
     ]
   },
   {
-    title: "Collaboration",
+    title: "AI and productivity tooling",
     icon: <Users className="h-8 w-8 text-blue-600" />,
     skills: [
-      "Working with engineering teams",
-      "Cross-functional stakeholder management",
-      "Technical interviews and knowledge transfer",
-      "Building documentation culture",
-      "User testing and feedback integration"
+      "VS Code",
+      "Cursor",
+      "Copilot",
+      "Custom GPTs",
+      "MCP servers"
     ]
   }
 ];
@@ -119,7 +116,7 @@ const Skills = () => {
           <h2 className="text-3xl font-bold mb-4">Skills</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-            I've developed a diverse skill set spanning technical writing, information architecture, and cross-functional collaboration. Here's what I bring to documentation projects.
+            My skill set spans docs-as-code, API and SDK documentation, information architecture, documentation strategy, and AI-assisted workflows. Here’s what I bring to documentation projects.
           </p>
         </motion.div>
 
@@ -184,7 +181,7 @@ const Skills = () => {
               <div className="mb-6 md:mb-0 md:mr-6">
                 <h3 className="text-2xl font-bold mb-3">My documentation approach</h3>
                 <p className="text-slate-600 max-w-2xl">
-                  A collaborative process for creating technical documentation that serves both users and the teams who maintain it.
+                  An AI-augmented documentation workflow that combines human judgment, engineering context, and iterative validation to serve both users and the teams who maintain the docs.
                 </p>
               </div>
               <div className="flex-shrink-0 animate-pulse-subtle">
@@ -194,10 +191,10 @@ const Skills = () => {
 
             <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-4">
               {[
-                { num: 1, title: "Research", desc: "Collaborate with engineers to understand the system. Review code, architecture, and existing documentation. Identify user needs and pain points." },
-                { num: 2, title: "Plan", desc: "Design documentation structure based on user journeys. Create content outlines. Establish review cycles with stakeholders." },
-                { num: 3, title: "Write", desc: "Create clear, user-focused content. Include practical examples. Explain concepts progressively from simple to complex." },
-                { num: 4, title: "Iterate", desc: "Gather feedback from technical reviewers and users. Refine based on testing. Keep docs updated as products evolve." }
+                { num: 1, title: "Research", desc: "Collaborate with engineers to understand the system, then use AI to accelerate codebase discovery, terminology mapping, and gap analysis. Validate findings against real user pain points." },
+                { num: 2, title: "Plan", desc: "Design the information architecture around user journeys, then use AI to generate structured outlines, topic hierarchies, and draft content plans for stakeholder review." },
+                { num: 3, title: "Write", desc: "Draft clear, user-focused documentation with AI support for first-pass content, examples, and variations, while applying human review for technical accuracy, tone, and clarity." },
+                { num: 4, title: "Iterate", desc: "Continuously improve documentation using feedback, analytics, and AI-assisted refinement. Re-test critical flows and keep content aligned with product and API changes." }
               ].map((step, index) => (
                 <motion.div
                   key={step.num}
