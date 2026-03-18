@@ -116,7 +116,7 @@ const Skills = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl font-bold mb-4">Skills and expertise</h2>
+          <h2 className="text-3xl font-bold mb-4">Skills</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
             I've developed a diverse skill set spanning technical writing, information architecture, and cross-functional collaboration. Here's what I bring to documentation projects.

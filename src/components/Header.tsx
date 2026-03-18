@@ -7,6 +7,13 @@ import { useState } from 'react';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const navItems = [
+    { id: 'portfolio', label: 'Portfolio' },
+    { id: 'blog', label: 'Blog' },
+    { id: 'skills', label: 'Skills' },
+    { id: 'about', label: 'About me' },
+    { id: 'contact', label: 'Get in touch' },
+  ];
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -31,16 +38,16 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          {['portfolio', 'skills', 'about', 'contact'].map((item, index) => (
+          {navItems.map((item, index) => (
             <motion.a
-              key={item}
-              href={`#${item}`}
+              key={item.id}
+              href={`#${item.id}`}
               className="text-slate-700 hover:text-blue-600 transition-colors relative group"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1, duration: 0.4 }}
             >
-              {item.charAt(0).toUpperCase() + item.slice(1)}
+              {item.label}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
             </motion.a>
           ))}
@@ -70,17 +77,17 @@ const Header = () => {
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
           >
-            {['portfolio', 'skills', 'about', 'contact'].map((item, index) => (
+            {navItems.map((item, index) => (
               <motion.a
-                key={item}
-                href={`#${item}`}
+                key={item.id}
+                href={`#${item.id}`}
                 className="text-slate-700 py-2 hover:text-blue-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.1 }}
               >
-                {item.charAt(0).toUpperCase() + item.slice(1)}
+                {item.label}
               </motion.a>
             ))}
           </motion.nav>
