@@ -29,13 +29,13 @@ export const substackPosts: SubstackPost[] = [
     "canonicalUrl": "https://mattgourd.substack.com/p/the-idea-is-the-easy-part"
   },
   {
-    "postId": 190741705,
-    "title": "The 55,000-token mistake everyone's making with AI agents",
-    "subtitle": "Before your agent does anything useful, it's already cost you.",
-    "excerpt": "There’s a protocol everyone spent early 2025 evangelising. You’ve probably seen the diagrams. The architecture decks. The LinkedIn posts about “the future of tool use.”",
-    "publishedAt": "2026-03-12T16:14:20.057Z",
-    "sourceUrl": "https://substack.com/home/post/p-190741705",
-    "canonicalUrl": "https://mattgourd.substack.com/p/the-55000-token-mistake-everyones"
+    "postId": 188596070,
+    "title": "You can't opt out",
+    "subtitle": "There's a camera pointed at you right now. You just can't see it.",
+    "excerpt": "Those AI glasses everyone’s been quietly excited about, the ones that translate menus, identify birds, tell you who someone is before you’ve shaken their hand, have a lens on the front. Pointed outward. Worn on a human face. In every pub, street, and superm...",
+    "publishedAt": "2026-02-20T09:36:18.702Z",
+    "sourceUrl": "https://substack.com/home/post/p-188596070",
+    "canonicalUrl": "https://mattgourd.substack.com/p/you-cant-opt-out"
   },
   {
     "postId": 188512784,
