@@ -54,7 +54,18 @@ const About = () => {
                   </div>
                 </div>
 
-                <a href="Matthew-Gourd.pdf"><Button className="w-full">Download CV</Button></a>
+                <div className="grid grid-cols-1 gap-2">
+                  <Button asChild className="w-full">
+                    <a href="Matthew-Gourd.pdf" target="_blank" rel="noopener noreferrer">
+                      Download CV (PDF)
+                    </a>
+                  </Button>
+                  <Button asChild variant="outline" className="w-full">
+                    <a href="cv/index.html" target="_blank" rel="noopener noreferrer">
+                      Download CV (HTML)
+                    </a>
+                  </Button>
+                </div>
               </div>
             </div>
           </motion.div>

@@ -116,7 +116,7 @@ const Skills = () => {
           <h2 className="text-3xl font-bold mb-4">Skills</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-            My skill set spans docs-as-code, API and SDK documentation, information architecture, documentation strategy, and AI-assisted workflows. Here’s what I bring to documentation projects.
+            My skills include docs-as-code, API/SDK documentation, information architecture, documentation strategy, and AI-assisted workflows.
           </p>
         </motion.div>
 
