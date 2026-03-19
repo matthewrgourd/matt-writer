@@ -1,6 +1,6 @@
-# Matt Gourd — technical writer portfolio
+# Matt Gourd - technical writer portfolio
 
-Welcome to my professional portfolio website. I'm a Senior Technical Writer and Documentation Manager with 20+ years of experience in API documentation, developer guides, and technical content strategy.
+Welcome to my professional portfolio website. I'm a Senior Technical Writer with 20+ years of experience in API documentation, developer guides, and technical content strategy.
 
 This site showcases my writing style, technical documentation capabilities, and approach to developer experience, content systems, and product enablement.
 
@@ -18,3 +18,44 @@ This portfolio is designed for clarity, speed, and accessibility. Built using a 
 - **[Tailwind CSS](https://tailwindcss.com/)** — Utility-first styling framework
 - **[TypeScript](https://www.typescriptlang.org/)** — For scalable, typed code
 - **[React](https://reactjs.org/)** — Component-based UI rendering
+
+## 🚀 Development
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## 📝 Syncing Substack content to the blog
+
+The blog section displays posts from [mattgourd.substack.com](https://mattgourd.substack.com). A sync script fetches the latest metadata (title, excerpt, publish date) and writes it to `src/data/substackPosts.ts`.
+
+### Run the sync
+
+```bash
+npm run sync:substack
+```
+
+### Add a new post
+
+1. Open [Substack](https://substack.com) and go to **Posts**.
+2. Click the post you want to add. The URL in the address bar will be `https://substack.com/home/post/p-123456789` (the internal ID).
+3. Copy that URL and add it to the `SOURCE_POSTS` array in `scripts/sync-substack-posts.mjs`:
+
+   ```javascript
+   const SOURCE_POSTS = [
+     'https://substack.com/home/post/p-191342672',
+     'https://substack.com/home/post/p-190741705',
+     // ... existing posts ...
+     'https://substack.com/home/post/p-XXXXXXXX',  // new post
+   ];
+   ```
+
+4. Run `npm run sync:substack` again.
+5. Rebuild and deploy if needed.
