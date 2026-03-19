@@ -11,6 +11,15 @@ export type SubstackPost = {
 
 export const substackPosts: SubstackPost[] = [
   {
+    "postId": 191499411,
+    "title": "Nostalgia dressed as a standard",
+    "subtitle": "Before we criticise vibe coding for being messy, let's look inside a Word document.",
+    "excerpt": "It gets said with the weariness of someone who’s been around long enough to know better. That weariness is usually the tell. Vibe coding is messy. The output is unreadable. No serious engineer would produce that.",
+    "publishedAt": "2026-03-19T19:05:43.653Z",
+    "sourceUrl": "https://substack.com/home/post/p-191499411",
+    "canonicalUrl": "https://mattgourd.substack.com/p/nostalgia-dressed-as-a-standard"
+  },
+  {
     "postId": 191342672,
     "title": "The idea is the easy part",
     "subtitle": "LLMs can't think outside the box.",
@@ -27,15 +36,6 @@ export const substackPosts: SubstackPost[] = [
     "publishedAt": "2026-03-12T16:14:20.057Z",
     "sourceUrl": "https://substack.com/home/post/p-190741705",
     "canonicalUrl": "https://mattgourd.substack.com/p/the-55000-token-mistake-everyones"
-  },
-  {
-    "postId": 188596070,
-    "title": "You can't opt out",
-    "subtitle": "There's a camera pointed at you right now. You just can't see it.",
-    "excerpt": "Those AI glasses everyone’s been quietly excited about, the ones that translate menus, identify birds, tell you who someone is before you’ve shaken their hand, have a lens on the front. Pointed outward. Worn on a human face. In every pub, street, and superm...",
-    "publishedAt": "2026-02-20T09:36:18.702Z",
-    "sourceUrl": "https://substack.com/home/post/p-188596070",
-    "canonicalUrl": "https://mattgourd.substack.com/p/you-cant-opt-out"
   },
   {
     "postId": 188512784,

@@ -1,9 +1,9 @@
 import { writeFile } from 'node:fs/promises';
 
 const SOURCE_POSTS = [
+  'https://substack.com/home/post/p-191499411',
   'https://substack.com/home/post/p-191342672',
   'https://substack.com/home/post/p-190741705',
-  'https://substack.com/home/post/p-188596070',
   'https://substack.com/home/post/p-188512784',
   'https://substack.com/home/post/p-185519390',
   'https://substack.com/home/post/p-175701474',
