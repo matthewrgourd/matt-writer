@@ -9,10 +9,15 @@ const formatPostDate = (dateString: string | null) => {
     return 'Date unavailable';
   }
 
-  return new Date(dateString).toLocaleDateString('en-GB', {
+  const date = new Date(dateString);
+
+  return date.toLocaleString('en-GB', {
     day: 'numeric',
     month: 'short',
     year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: 'Europe/London',
   });
 };
 
