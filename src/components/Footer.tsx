@@ -18,14 +18,17 @@ const Footer = () => {
             <a href="#portfolio" className="text-slate-300 hover:text-white transition-colors">
               Portfolio
             </a>
+            <a href="#blog" className="text-slate-300 hover:text-white transition-colors">
+              Blog
+            </a>
             <a href="#skills" className="text-slate-300 hover:text-white transition-colors">
               Skills
             </a>
             <a href="#about" className="text-slate-300 hover:text-white transition-colors">
-              About
+              About me
             </a>
             <a href="#contact" className="text-slate-300 hover:text-white transition-colors">
-              Contact
+              Get in touch
             </a>
           </div>
         </div>
@@ -36,9 +39,7 @@ const Footer = () => {
           </p>
 
           <div className="flex items-center gap-2 text-sm text-slate-400">
-            <span>Senior Technical Writer</span>
-            <span className="h-1 w-1 rounded-full bg-slate-600"></span>
-            <span>Content Strategist</span>
+            <span>Senior Technical Writer • Information Engineer</span>
           </div>
         </div>
       </div>
