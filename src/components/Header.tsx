@@ -27,14 +27,15 @@ const Header = () => {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <motion.div
+        <motion.a
+          href="https://mattgourd.com"
           className="flex items-center"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
         >
           <FileText className="h-6 w-6 text-blue-600 mr-2" />
           <span className="text-xl font-bold font-mono">Matt.Writer</span>
-        </motion.div>
+        </motion.a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
