@@ -32,6 +32,10 @@ Build for production:
 npm run build
 ```
 
+## 📄 CV (static HTML in `public/cv/`)
+
+The interactive CV mirrors the standalone CV project. After you update that repo, sync into `public/cv/` (`style.css`, `resume.js`, `script.js`, `index.html` using those paths), replace `public/Matthew-Gourd.pdf` with a fresh export, and keep certificate PDFs plus `matt-profile-photo2.png` next to the HTML.
+
 ## 📝 Syncing Substack content to the blog
 
 The blog section displays posts from [mattgourd.substack.com](https://mattgourd.substack.com). A sync script fetches the latest metadata (title, excerpt, publish date) and writes it to `src/data/substackPosts.ts`.
