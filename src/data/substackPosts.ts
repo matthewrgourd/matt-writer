@@ -11,6 +11,15 @@ export type SubstackPost = {
 
 export const substackPosts: SubstackPost[] = [
   {
+    "postId": 191669442,
+    "title": "OpenClaw in the wild",
+    "subtitle": "The gap between running and safe to run",
+    "excerpt": "Most people who set up OpenClaw this month did the same thing. Installed it, connected it to Telegram or WhatsApp, sent themselves a message from another room, felt the mild electricity of that working, and moved on.",
+    "publishedAt": "2026-03-21T13:01:51.194Z",
+    "sourceUrl": "https://substack.com/home/post/p-191669442",
+    "canonicalUrl": "https://mattgourd.substack.com/p/openclaw-in-the-wild"
+  },
+  {
     "postId": 191499411,
     "title": "Nostalgia dressed as a standard",
     "subtitle": "Before we criticise vibe coding for being messy, let's look inside a Word document.",
@@ -27,15 +36,6 @@ export const substackPosts: SubstackPost[] = [
     "publishedAt": "2026-03-18T07:44:08.063Z",
     "sourceUrl": "https://substack.com/home/post/p-191342672",
     "canonicalUrl": "https://mattgourd.substack.com/p/the-idea-is-the-easy-part"
-  },
-  {
-    "postId": 188596070,
-    "title": "You can't opt out",
-    "subtitle": "There's a camera pointed at you right now. You just can't see it.",
-    "excerpt": "Those AI glasses everyone’s been quietly excited about, the ones that translate menus, identify birds, tell you who someone is before you’ve shaken their hand, have a lens on the front. Pointed outward. Worn on a human face. In every pub, street, and superm...",
-    "publishedAt": "2026-02-20T09:36:18.702Z",
-    "sourceUrl": "https://substack.com/home/post/p-188596070",
-    "canonicalUrl": "https://mattgourd.substack.com/p/you-cant-opt-out"
   },
   {
     "postId": 188512784,
