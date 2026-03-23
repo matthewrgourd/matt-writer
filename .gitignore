@@ -25,3 +25,4 @@ dist-ssr
 
 # Local agent settings
 .claude/
+CLAUDE.md
