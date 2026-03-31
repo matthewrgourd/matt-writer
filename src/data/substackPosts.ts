@@ -11,6 +11,15 @@ export type SubstackPost = {
 
 export const substackPosts: SubstackPost[] = [
   {
+    "postId": 192200914,
+    "title": "Technical writer is the wrong job title",
+    "subtitle": "The augmentation debate is a distraction",
+    "excerpt": "The question everyone’s asking is whether AI will replace technical writers. It’s the wrong question, and answering it either way tends to obscure what’s actually at stake.",
+    "publishedAt": "2026-03-26T15:34:33.870Z",
+    "sourceUrl": "https://substack.com/home/post/p-192200914",
+    "canonicalUrl": "https://mattgourd.substack.com/p/technical-writer-is-the-wrong-job"
+  },
+  {
     "postId": 191669442,
     "title": "OpenClaw in the wild",
     "subtitle": "The gap between running and safe to run",
@@ -54,14 +63,5 @@ export const substackPosts: SubstackPost[] = [
     "publishedAt": "2026-01-23T09:39:51.664Z",
     "sourceUrl": "https://substack.com/home/post/p-185519390",
     "canonicalUrl": "https://mattgourd.substack.com/p/the-birth-of-the-agentic-technical"
-  },
-  {
-    "postId": 175701474,
-    "title": "The passkey paradox",
-    "subtitle": "Why \"Sign in with Face ID\" isn't actually Face ID.",
-    "excerpt": "There’s a confusing thing happening across the internet right now. Amazon prompts you to “sign in with a passkey.” PayPal offers the same. Google, Microsoft, and countless other services are rolling out this mysterious feature. You click it, your phone show...",
-    "publishedAt": "2025-10-09T10:57:31.493Z",
-    "sourceUrl": "https://substack.com/home/post/p-175701474",
-    "canonicalUrl": "https://mattgourd.substack.com/p/the-passkey-paradox"
   }
 ];

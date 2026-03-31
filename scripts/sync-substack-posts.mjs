@@ -3,6 +3,7 @@ import { writeFile } from 'node:fs/promises';
 const SUBSTACK_SUBDOMAIN = 'mattgourd';
 
 const SOURCE_POSTS = [
+  'https://substack.com/home/post/p-192200914',
   'https://substack.com/home/post/p-191669442',
   'https://substack.com/home/post/p-191499411',
   'https://substack.com/home/post/p-191342672',
@@ -10,7 +11,7 @@ const SOURCE_POSTS = [
   //'https://substack.com/home/post/p-188596070',
   'https://substack.com/home/post/p-188512784',
   'https://substack.com/home/post/p-185519390',
-  'https://substack.com/home/post/p-175701474',
+  //'https://substack.com/home/post/p-175701474',
 ];
 const FORCE_TWO_PARAGRAPH_SNIPPET_POST_IDS = new Set([185519390, 188512784]);
 
