@@ -11,6 +11,15 @@ export type SubstackPost = {
 
 export const substackPosts: SubstackPost[] = [
   {
+    "postId": 193787205,
+    "title": "Your documentation platform is missing half its stack",
+    "subtitle": "What I built at weekends to find out, and what's still left to do",
+    "excerpt": "Something I keep noticing when I look at developer documentation setups: the tooling conversation starts and ends with which framework to pick.",
+    "publishedAt": "2026-04-10T12:10:16.467Z",
+    "sourceUrl": "https://substack.com/home/post/p-193787205",
+    "canonicalUrl": "https://mattgourd.substack.com/p/your-documentation-platform-is-missing"
+  },
+  {
     "postId": 192200914,
     "title": "Technical writer is the wrong job title",
     "subtitle": "The augmentation debate is a distraction",
@@ -18,15 +27,6 @@ export const substackPosts: SubstackPost[] = [
     "publishedAt": "2026-03-26T15:34:33.870Z",
     "sourceUrl": "https://substack.com/home/post/p-192200914",
     "canonicalUrl": "https://mattgourd.substack.com/p/technical-writer-is-the-wrong-job"
-  },
-  {
-    "postId": 191669442,
-    "title": "OpenClaw in the wild",
-    "subtitle": "The gap between running and safe to run",
-    "excerpt": "Most people who set up OpenClaw this month did the same thing. Installed it, connected it to Telegram or WhatsApp, sent themselves a message from another room, felt the mild electricity of that working, and moved on.",
-    "publishedAt": "2026-03-21T13:01:51.194Z",
-    "sourceUrl": "https://substack.com/home/post/p-191669442",
-    "canonicalUrl": "https://mattgourd.substack.com/p/openclaw-in-the-wild"
   },
   {
     "postId": 191499411,

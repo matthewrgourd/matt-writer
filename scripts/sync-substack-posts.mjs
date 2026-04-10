@@ -4,7 +4,8 @@ const SUBSTACK_SUBDOMAIN = 'mattgourd';
 
 const SOURCE_POSTS = [
   'https://substack.com/home/post/p-192200914',
-  'https://substack.com/home/post/p-191669442',
+  'https://substack.com/home/post/p-193787205',
+  //'https://substack.com/home/post/p-191669442',
   'https://substack.com/home/post/p-191499411',
   'https://substack.com/home/post/p-191342672',
   //'https://substack.com/home/post/p-190741705',
