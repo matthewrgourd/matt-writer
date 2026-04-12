@@ -154,8 +154,8 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Github className="mr-1 h-3 w-3" />
                     View source
+                    <Github className="ml-1 h-3 w-3 group-hover/link:translate-x-1 transition-transform" />
                   </a>
                 )}
               </CardFooter>
