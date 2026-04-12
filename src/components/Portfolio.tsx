@@ -14,6 +14,7 @@ const portfolioItems = [
     imageAlt: "Screenshot of API documentation platform",
     link: "",
     websiteLink: "https://www.devdocify.com/tfl/api-playground",
+    githubLink: "https://github.com/matthewrgourd/doc-platform",
     type: "Documentation platform"
   },
   {
@@ -144,6 +145,17 @@ const Portfolio = () => {
                   >
                     View website
                     <ExternalLink className="ml-1 h-3 w-3 group-hover/link:translate-x-1 transition-transform" />
+                  </a>
+                )}
+                {item.githubLink && (
+                  <a
+                    href={item.githubLink}
+                    className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors group/link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Github className="mr-1 h-3 w-3" />
+                    View source
                   </a>
                 )}
               </CardFooter>
