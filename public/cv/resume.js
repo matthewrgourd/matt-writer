@@ -84,7 +84,12 @@ window.CV_RESUME_DATA = {
     'Custom GPTs',
     'MCP servers'
   ],
-  professionalSummary: `Senior technical writer with 20+ years in content and documentation, including 6+ years focused on developer documentation in fintech and SaaS. Experienced in docs‑as‑code, developer portals, API and SDK documentation, and documentation operations that improve adoption, reduce friction, and support faster delivery. Particularly strong at turning complex product areas into scalable content structures, onboarding journeys, and maintainable workflows using modern AI-assisted tooling.`,
+  professionalSummary: 
+`Senior technical writer with 20+ years in content and documentation, including 6+ years focused on developer documentation in fintech and SaaS. Experienced in docs‑as‑code, developer portals, API and SDK documentation, and documentation operations that improve adoption, reduce friction, and support faster delivery. Particularly strong at turning complex product areas into scalable content structuresI'm a senior technical writer with a focus on developer documentation in fintech and SaaS. I specialise in API documentation and developer portals, and I spend most of my time working closely with engineering teams to make complex products easier to understand, onboard, and adopt.
+
+I build and maintain docs-as-code pipelines, design information architectures, and shape documentation strategy across distributed teams. I care about the full picture, from the first onboarding step a developer takes to the enterprise stakeholder who needs to sign off on it. I've worked across Open Banking, payment processing, authentication platforms, and cloud-native environments, which has given me a good eye for what developers actually need versus what they're handed.
+
+I think a lot about where documentation fits in the developer experience, and how modern tooling (custom GPTs, MCP servers, analytics pipelines) changes what's possible for a writing team. My view: good docs aren't just content, they're a product. They should be designed, measured, and iterated on like one.`,
   employmentHistory: [
     {
       jobTitle: 'Senior Technical Writer',
