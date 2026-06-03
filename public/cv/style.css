@@ -13,6 +13,9 @@
   text-size-adjust: 100%;
 }
 
+/* Hide Vue templates until mounted */
+[v-cloak] { display: none; }
+
 :focus:not(:focus-visible) {
   outline: none;
 }
