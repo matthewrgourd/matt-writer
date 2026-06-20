@@ -31,7 +31,7 @@ const About = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
-              <div className="bg-gradient-to-r from-blue-600 to-indigo-600 h-24 animate-gradient"></div>
+              <div className="bg-blue-600 h-24"></div>
               <div className="px-6 pt-0 pb-6 relative">
                 <div className="h-24 w-24 rounded-full border-4 border-white overflow-hidden -mt-12 mb-4 bg-white">
                   <img
