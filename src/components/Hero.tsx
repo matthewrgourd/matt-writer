@@ -82,7 +82,7 @@ const Hero = () => {
                 </div>
                 <div className="p-6">
                 <div className="code-block">
-                  <p className="text-blue-400 mt-2">// What I bring to your team</p>
+                  <p className="text-blue-600 mt-2">// What I bring to your team</p>
                   <p className="text-green-400 mt-2">const <span className="text-yellow-300">documentation</span> = {'{'}</p>
                   <p className="ml-4 text-purple-300">understandsCode: <span className="text-orange-300">true</span>,</p>
                   <p className="ml-4 text-purple-300">speaksEngineer: <span className="text-orange-300">true</span>,</p>
@@ -90,7 +90,7 @@ const Hero = () => {
                   <p className="ml-4 text-purple-300">writesForHumansAndAI: <span className="text-orange-300">true</span>,</p>
                   <p className="ml-4 text-purple-300">experience: <span className="text-orange-300">"20+ years"</span></p>
                   <p className="text-green-400">{'};'}</p>
-                  <p className="text-blue-400 mt-4">// The documentation approach</p>
+                  <p className="text-blue-600 mt-4">// The documentation approach</p>
                   <p className="text-green-400 mt-2">function <span className="text-yellow-300">createGreatDocs</span>() {'{'}</p>
                   <p className="ml-4 text-slate-200">collaborateWithEngineers();</p>
                   <p className="ml-4 text-slate-200">understandUserNeeds();</p>
