@@ -50,7 +50,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center text-sm text-slate-600">
                     <Clock className="h-4 w-4 mr-2 text-blue-600" />
-                    20+ years experience
+                    25+ years experience
                   </div>
                 </div>
 
@@ -84,10 +84,10 @@ const About = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
-                { icon: FileText, title: "Using Generative AI in Technical Writing", org: "Cherryleaf (accredited by ISTC)" },
-                { icon: Gift, title: "People Manager Programme", org: "Lepaya" },
-                { icon: Gift, title: "ICL Technical Writer Training", org: "Fujitsu Ltd." },
-                { icon: FileText, title: "BSc (Hons) Technology Management", org: "University of Wales, Cardiff (1 year completed at 2:1 level)" }
+                { icon: Gift, title: "Agentic AI for Developers: Concepts and Application for Enterprises", org: "LinkedIn Learning" },
+                { icon: FileText, title: "Using Generative AI in Technical Writing", org: "Cherryleaf" },
+                { icon: Gift, title: "People Manager Program", org: "Lepaya" },
+                { icon: FileText, title: "BSc (Hons) Technology Management", org: "University of Wales (part-completed)" }
               ].map((cert, index) => (
                 <motion.div
                   key={index}
