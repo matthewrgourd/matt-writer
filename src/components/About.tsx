@@ -77,7 +77,7 @@ const About = () => {
               I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. Each project has taught me something new about making technical information accessible and useful.
             </p>
             <p className="text-slate-700 mb-6 leading-relaxed">
-            Outside work I build things for the web, make experimental art, DJ and produce electronic music, and run half-marathons for charity.
+            Outside work, I build things for the web, make experimental art, DJ and produce electronic music, and run half-marathons for charity.
             </p>
 
             <h4 className="text-xl font-bold mt-8 mb-4">Education and certifications</h4>
