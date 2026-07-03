@@ -18,7 +18,7 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-4">About me</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600">
-          I work alongside developers to understand complex systems and create resources that help users succeed. I believe great documentation is a team effort, and I thrive on the collaborative problem-solving that comes with it.
+          I work alongside developers to understand complex systems and build the documentation that helps people actually use them. Good docs are a team effort, and the collaborative problem-solving is the part I like most.
           </p>
         </motion.div>
 
@@ -77,7 +77,7 @@ const About = () => {
               I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. Each project has taught me something new about making technical information accessible and useful.
             </p>
             <p className="text-slate-700 mb-6 leading-relaxed">
-            Beyond my professional endeavors, I immerse myself in web development and delve into experimental art. My passions extend to performing as a DJ, creating electronic music, and running half-marathons in support of charitable causes. These pursuits drive and inspire me.
+            Outside work I build things for the web, make experimental art, DJ and produce electronic music, and run half-marathons for charity.
             </p>
 
             <h4 className="text-xl font-bold mt-8 mb-4">Education and certifications</h4>

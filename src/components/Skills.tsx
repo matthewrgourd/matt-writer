@@ -181,7 +181,7 @@ const Skills = () => {
               <div className="mb-6 md:mb-0 md:mr-6">
                 <h3 className="text-2xl font-bold mb-3">My documentation approach</h3>
                 <p className="text-slate-600 max-w-2xl">
-                  An AI-augmented documentation workflow that combines human judgment, engineering context, and iterative validation to serve both users and the teams who maintain the docs.
+                  An AI-augmented workflow that pairs engineering context with iterative validation, built to serve both the people reading the docs and the people who have to maintain them.
                 </p>
               </div>
               <div className="flex-shrink-0 animate-pulse-subtle">
@@ -192,7 +192,7 @@ const Skills = () => {
             <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-4">
               {[
                 { num: 1, title: "Research", desc: "Collaborate with engineers to understand the system, then use AI to accelerate codebase discovery, terminology mapping, and gap analysis. Validate findings against real user pain points." },
-                { num: 2, title: "Plan", desc: "Design the information architecture around user journeys, then use AI to generate structured outlines, topic hierarchies, and draft content plans for stakeholder review." },
+                { num: 2, title: "Plan", desc: "Design the information architecture around real user tasks, then use AI to generate structured outlines, topic hierarchies, and draft content plans for stakeholder review." },
                 { num: 3, title: "Write", desc: "Draft clear, user-focused documentation with AI support for first-pass content, examples, and variations, while applying human review for technical accuracy, tone, and clarity." },
                 { num: 4, title: "Iterate", desc: "Continuously improve documentation using feedback, analytics, and AI-assisted refinement. Re-test critical flows and keep content aligned with product and API changes." }
               ].map((step, index) => (
