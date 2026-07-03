@@ -11,13 +11,13 @@ export type SubstackPost = {
 
 export const substackPosts: SubstackPost[] = [
   {
-    "postId": 193787205,
-    "title": "Your documentation platform is missing half its stack",
-    "subtitle": "What I built at weekends to find out, and what's still left to do",
-    "excerpt": "Something I keep noticing when I look at developer documentation setups: the tooling conversation starts and ends with which framework to pick.",
-    "publishedAt": "2026-04-10T12:10:16.467Z",
-    "sourceUrl": "https://substack.com/home/post/p-193787205",
-    "canonicalUrl": "https://mattgourd.substack.com/p/your-documentation-platform-is-missing"
+    "postId": 204908395,
+    "title": "Nobody reads your API docs. That was fine until now.",
+    "subtitle": "AI agents are the first readers of your documentation who can't ask a colleague.",
+    "excerpt": "A research team at the Sidia Institute in Brazil recently tried to do the thing half the industry is currently trying to do: take a set of stable, production REST APIs (16 of them, roughly 600 endpoints) and expose them to AI agents through MCP. The early e...",
+    "publishedAt": "2026-07-03T12:52:00.940Z",
+    "sourceUrl": "https://substack.com/home/post/p-204908395",
+    "canonicalUrl": "https://mattgourd.substack.com/p/nobody-reads-your-api-docs-that-was"
   },
   {
     "postId": 192200914,
