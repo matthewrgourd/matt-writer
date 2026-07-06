@@ -74,7 +74,7 @@ const skillsCategories = [
       "VS Code",
       "Cursor",
       "Copilot",
-      "Custom GPTs",
+      "Agentic workflows",
       "MCP servers"
     ]
   }

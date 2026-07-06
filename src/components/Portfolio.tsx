@@ -20,7 +20,7 @@ const portfolioItems = [
   {
     title: "Enterprise documentation site",
     description: "Lead technical writer for a fintech integration platform, overseeing conceptual overviews, quickstart guides, and implementation guidance to help banking teams understand Grand Central's architecture, connectors, and APIs.",
-    tags: ["Developer experience", "Documentation site", "Documentation management"],
+    tags: ["Developer experience", "Documentation site", "Documentation management", "Payments documentation"],
     image: "/grand-central-docs.png",
     imageAlt: "Screenshot of enterprise documentation site",
     link: "https://grandcentral.backbase.io",
