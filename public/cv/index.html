@@ -225,11 +225,20 @@
                 <p class="fw-bold">
                   {{ employment.employer }}, {{ employment.city }}
                 </p>
+                <p v-if="employment.description" class="mb-2">{{ employment.description }}</p>
                 <ul class="ms-3 mb-0 achievements-list">
                   <li v-for="(achievement, j) in employment.achievements" :key="'ach-' + i + '-' + j" class="pb-1">
                     {{ achievement }}
                   </li>
                 </ul>
+              </div>
+            </div>
+            <div v-if="earlierRoles" class="row record mb-4 bullet">
+              <div class="col-auto">
+                <i class="bi bi-record-circle" aria-hidden="true"></i>
+              </div>
+              <div class="col">
+                <p class="fst-italic">{{ earlierRoles }}</p>
               </div>
             </div>
           </div>

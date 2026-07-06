@@ -9,18 +9,18 @@ window.CV_RESUME_DATA = {
   email: 'mattgourd@gmail.com',
   certifications: [
     {
-      school: 'LinkedIn Learning Community',
-      degree: 'Agentic AI for Developers: Concepts and Application for Enterprises',
-      graduationDate: 'Issued Jun 2025',
-      description: 'View certificate',
-      certificateLink: './agentic-ai-for-developers-course-certificate.pdf'
-    },
-    {
       school: 'Cherryleaf',
       degree: 'Using Generative AI in Technical Writing',
       graduationDate: 'Issued Apr 2025',
       description: 'View certificate',
       certificateLink: './using-generative-ai-in-technical-writing-course-certificate.pdf'
+    },
+    {
+      school: 'LinkedIn Learning Community',
+      degree: 'Agentic AI for Developers: Concepts and Application for Enterprises',
+      graduationDate: 'Issued Jun 2025',
+      description: 'View certificate',
+      certificateLink: './agentic-ai-for-developers-course-certificate.pdf'
     },
     {
       school: 'Lepaya',
@@ -34,13 +34,7 @@ window.CV_RESUME_DATA = {
       school: 'University of Wales',
       degree: 'BSc (Hons) Technology Management',
       graduationDate: '',
-      description: 'Part completed; achieved a 2:1 in first year'
-    },
-    {
-      school: 'Marling Grammar School',
-      degree: '10 GCSE passes, 2 A-Level passes',
-      graduationDate: '',
-      description: 'English and Art'
+      description: 'Part completed'
     }
   ],
   links: [
@@ -84,12 +78,8 @@ window.CV_RESUME_DATA = {
     'Custom GPTs',
     'MCP servers'
   ],
-  professionalSummary: 
-`I'm a technical writer and information engineer with a focus on developer documentation in fintech and SaaS. I specialise in API documentation and developer portals, and I spend most of my time working closely with engineering teams to make complex products easier to understand, onboard, and adopt.
-
-I build and maintain docs-as-code pipelines, design information architectures, and shape documentation strategy across distributed teams. I care about the full picture, from the first onboarding step a developer takes to the enterprise stakeholder who needs to sign off on it. I've worked across Open Banking, payment processing, authentication platforms, and cloud-native environments, which has given me a good eye for what developers actually need versus what they're handed.
-
-I think a lot about where documentation fits in the developer experience, and how modern tooling (custom GPTs, MCP servers, analytics pipelines) changes what's possible for a writing team. My view: good docs aren't just content, they're a product. They should be designed, measured, and iterated on like one.`,
+  professionalSummary:
+`Technical writer and information engineer driving developer adoption in high-growth fintech and SaaS. More than 25 years of writing experience, including seven years in developer documentation and building Viva Wallet's developer portal from scratch. Deep expertise in API and SDK documentation, docs-as-code workflows, and AI-assisted authoring, with a focus on getting developers from first read to working integration as quickly as possible.`,
   employmentHistory: [
     {
       jobTitle: 'Senior Technical Writer',
@@ -97,10 +87,11 @@ I think a lot about where documentation fits in the developer experience, and ho
       endDate: 'Present',
       employer: 'Backbase',
       city: 'remote',
+      description: 'Following a team restructure, returned to a hands-on senior role focused on documentation engineering.',
       achievements: [
-        'Author technical documentation for solution engineers and developers delivering complex banking implementations',
-        'Standardise documentation workflows to improve consistency across distributed teams',
-        'Maintain an AI-first workflow to extract implementation details from source code and accelerate delivery without lowering quality'
+        'Lead technical writer for Grand Central, Backbase\'s integration platform, producing conceptual overviews, quickstart guides, and implementation guidance that cover its architecture, connectors, and APIs for banking implementation teams, working with the engineering subject-matter experts.',
+        'Payments specialist for Backbase\'s implementation documentation (Backbase.io), producing guidance used by internal delivery teams, integration partners, and clients implementing payment capabilities.',
+        'Build and maintain AI workflows that accelerate codebase discovery, terminology mapping, and gap analysis, extracting implementation details directly from source code so documentation ships alongside the features it describes.'
       ]
     },
     {
@@ -110,9 +101,9 @@ I think a lot about where documentation fits in the developer experience, and ho
       employer: 'Backbase',
       city: 'remote',
       achievements: [
-        'Led a distributed team of technical writers, improving collaboration, productivity, and team growth',
-        'Wrote developer guides with engineering and solution teams for complex banking software',
-        'Developed AI-assisted authoring workflows while maintaining rigorous quality standards and repeatable review practices'
+        'Led a distributed team of four technical writers, introducing shared review practices and mentoring writers toward more consistent, independent output.',
+        'Wrote developer guides with engineering and solution teams for complex banking software.',
+        'Introduced AI-assisted authoring workflows to the team while maintaining rigorous quality standards and repeatable review practices.'
       ]
     },
     {
@@ -122,9 +113,9 @@ I think a lot about where documentation fits in the developer experience, and ho
       employer: 'Backbase',
       city: 'remote',
       achievements: [
-        'Created comprehensive technical and integration documentation for global banking software',
-        'Implemented the Google Developer Documentation Style Guide across EMEA teams',
-        'Improved peer review processes and content strategy to enable faster, more reliable release cycles'
+        'Created technical and integration documentation for global banking software.',
+        'Implemented the Google Developer Documentation Style Guide across EMEA teams.',
+        'Improved peer review processes and content strategy to enable faster, more reliable release cycles.'
       ]
     },
     {
@@ -134,9 +125,9 @@ I think a lot about where documentation fits in the developer experience, and ho
       employer: 'Viva Wallet',
       city: 'remote',
       achievements: [
-        'Acted as the primary technical liaison for enterprise clients during high-stakes system incidents',
-        'Produced payment API guides and technical enablement content to support developer adoption',
-        'Built a fully automated docs-as-code pipeline using GitHub and Markdown'
+        'Acted as the primary technical liaison for enterprise clients during high-stakes system incidents.',
+        'Produced payment API guides and technical enablement content to support developer adoption.',
+        'Built a fully automated docs-as-code pipeline using GitHub and Markdown.'
       ]
     },
     {
@@ -146,21 +137,20 @@ I think a lot about where documentation fits in the developer experience, and ho
       employer: 'Viva Wallet',
       city: 'remote',
       achievements: [
-        'Launched the company\'s first scalable developer documentation platform by creating a developer portal from scratch with docs-as-code workflows',
-        'Produced API, SDK, and plugin documentation for a payment integration platform to help developers move from initial setup to successful implementation faster',
-        'Established documentation analytics and feedback loops to enable data-driven content optimisation'
+        'Launched the company\'s first developer portal, replacing outdated documentation with a modern, searchable docs-as-code platform built from the ground up.',
+        'Produced API, SDK, and plugin documentation for the payments platform, partnering with engineering to cut onboarding time and reduce integration support requests.',
+        'Established documentation analytics and feedback loops to enable data-driven content optimisation.'
       ]
     },
     {
       jobTitle: 'Digital Content Officer',
       startDate: 'Apr 2018',
       endDate: 'Dec 2018',
-      employer: 'University of the Arts London (UAL)',
+      employer: 'University of the Arts London',
       city: 'London',
       achievements: [
-        'Led large-scale content migration during a CMS transition affecting 20,000+ students',
-        'Redesigned online forms and workflows to better support a diverse student population',
-        'Coordinated IT and academic stakeholders to deliver a seamless digital transition'
+        'Involved in a large-scale content migration during a CMS transition affecting more than 20,000 students.',
+        'Redesigned online forms and workflows to better support a diverse student population.'
       ]
     },
     {
@@ -170,8 +160,8 @@ I think a lot about where documentation fits in the developer experience, and ho
       employer: 'ipagoo',
       city: 'London',
       achievements: [
-        'Produced Open Banking API documentation during a critical regulatory transition',
-        'Launched the company\'s first developer portal in a high-growth fintech startup environment'
+        'Produced Open Banking API documentation during a critical regulatory transition.',
+        'Built and shipped the company\'s first developer portal in a high-growth fintech startup environment.'
       ]
     },
     {
@@ -181,8 +171,8 @@ I think a lot about where documentation fits in the developer experience, and ho
       employer: 'MIRACL',
       city: 'London',
       achievements: [
-        'Authored documentation for complex cryptographic SDKs and multi-factor authentication platforms',
-        'Conducted technical reviews and platform testing on AWS infrastructure for worldwide deployment'
+        'Authored documentation for complex cryptographic SDKs and multi-factor authentication platforms.',
+        'Conducted technical reviews and platform testing on AWS infrastructure for worldwide deployment.'
       ]
     },
     {
@@ -190,35 +180,24 @@ I think a lot about where documentation fits in the developer experience, and ho
       startDate: 'Mar 2016',
       endDate: 'May 2016',
       employer: 'Mumsnet',
-      city: 'London (on-site)',
+      city: 'London',
       achievements: [
-        'Created comprehensive onboarding documentation for distributed Java, iOS, and Android teams',
-        'Designed infrastructure diagrams and process flows supporting remote engineering operations',
-        'Established knowledge-sharing protocols that improved developer onboarding efficiency'
+        'Created onboarding documentation for distributed Java, iOS, and Android teams.',
+        'Designed infrastructure diagrams and process flows supporting remote engineering operations.'
       ]
     },
     {
       jobTitle: 'Web Manager',
       startDate: 'Aug 2012',
       endDate: 'Mar 2016',
-      employer: 'Chartered Institute of Public Relations (CIPR)',
+      employer: 'Chartered Institute of Public Relations',
       city: 'London',
       achievements: [
-        'Managed content strategy for the corporate website serving PR professionals across multiple regions',
-        'Led digital campaigns, including national awards, by coordinating remote cross-departmental teams'
-      ]
-    },
-    {
-      jobTitle: 'Web Editor (Contract)',
-      startDate: 'Jan 2010',
-      endDate: 'Aug 2012',
-      employer: 'Chartered Institute of Public Relations (CIPR)',
-      city: 'London',
-      achievements: [
-        'Delivered a comprehensive site migration and improved legacy content quality',
-        'Maintained content quality and consistency across a multi-year digital transformation initiative'
+        'Managed content strategy for the corporate website serving PR professionals across multiple regions.',
+        'Led digital campaigns, including national awards, by coordinating remote cross-departmental teams.'
       ]
     }
   ],
+  earlierRoles: 'Earlier roles across enterprise software, telecoms, and professional services (including Fujitsu and BT) established the foundations in API and product documentation, content strategy, and editorial process that underpin current senior work.',
   photo: './matt-profile-photo2.png',
 };
