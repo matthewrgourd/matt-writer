@@ -74,7 +74,7 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold mb-4">Background</h3>
             <p className="text-slate-700 mb-6 leading-relaxed">
-              I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems, including a payments documentation specialism serving integration partners and clients. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. Each project has taught me something new about making technical information accessible and useful.
+              I've worked with engineering teams across startups and enterprises, from fintech platforms to banking systems, including a payments documentation specialism serving integration partners and clients. I've learned to navigate complex technical environments, adapt to different team cultures, and find the best ways to document everything from well-established APIs to rapidly evolving products. More recently I've been putting AI-assisted workflows to the test properly: last year they enabled a 164% increase in my documentation output, same hours, no overtime. Each project has taught me something new about making technical information accessible and useful.
             </p>
             <p className="text-slate-700 mb-6 leading-relaxed">
             Outside work, I build things for the web, make experimental art, DJ and produce electronic music, and run half-marathons for charity.
@@ -84,8 +84,8 @@ const About = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
-                { icon: Gift, title: "Agentic AI for Developers: Concepts and Application for Enterprises", org: "LinkedIn Learning" },
                 { icon: FileText, title: "Using Generative AI in Technical Writing", org: "Cherryleaf" },
+                { icon: Gift, title: "Agentic AI for Developers: Concepts and Application for Enterprises", org: "LinkedIn Learning" },
                 { icon: Gift, title: "People Manager Program", org: "Lepaya" },
                 { icon: FileText, title: "BSc (Hons) Technology Management", org: "University of Wales (part-completed)" }
               ].map((cert, index) => (
