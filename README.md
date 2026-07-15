@@ -1,6 +1,6 @@
 # Matt Gourd - technical writer portfolio
 
-Welcome to my professional portfolio website. I'm a Senior Technical Writer and Information Engineer with 20+ years of experience in API documentation, developer guides, and technical content strategy.
+Welcome to my professional portfolio website. I'm a Senior Documentation Engineer and Technical Writer with 20+ years of experience in API documentation, developer guides, and technical content strategy.
 
 This site showcases my writing style, technical documentation capabilities, and approach to developer experience, content systems, and product enablement.
 

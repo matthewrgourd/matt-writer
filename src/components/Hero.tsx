@@ -27,7 +27,7 @@ const Hero = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
             >
-              Senior Technical Writer • Information Engineer
+              Senior Documentation Engineer • Technical Writer
             </motion.div>
             <motion.h1
               className="text-4xl md:text-5xl font-bold mb-6 leading-tight"

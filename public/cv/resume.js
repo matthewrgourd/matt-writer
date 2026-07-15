@@ -1,7 +1,7 @@
 /* CV copy: single source of truth. Loaded before script.js. */
 window.CV_RESUME_DATA = {
   name: 'Matthew Gourd',
-  jobTitle: 'Senior Technical Writer | Information Engineer',
+  jobTitle: 'Senior Documentation Engineer | Technical Writer',
   city: 'London',
   postalCode: '',
   country: '',
@@ -82,7 +82,7 @@ window.CV_RESUME_DATA = {
 `Technical writer and information engineer driving developer adoption in high-growth fintech and SaaS. More than 25 years of writing experience, including seven years in developer documentation and building Viva Wallet's developer portal from scratch. Deep expertise in API and SDK documentation, docs-as-code workflows, and AI-assisted authoring, with a focus on getting developers from first read to working integration as quickly as possible.`,
   employmentHistory: [
     {
-      jobTitle: 'Senior Technical Writer',
+      jobTitle: 'Senior Documentation Engineer',
       startDate: 'Dec 2025',
       endDate: 'Present',
       employer: 'Backbase',
