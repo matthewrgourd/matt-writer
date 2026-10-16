@@ -11,11 +11,20 @@ export type SubstackPost = {
 
 export const substackPosts: SubstackPost[] = [
   {
+    "postId": 220707244,
+    "title": "AI can check the code now, and that’s helped more than I expected",
+    "subtitle": "Fewer follow-up messages, better questions, and more responsibility for getting it right.",
+    "excerpt": "Most of what I read about AI and documentation relates to writing it. For me, another big change has been in fact-checking it.",
+    "publishedAt": "2026-10-16T14:22:15.063Z",
+    "sourceUrl": "https://substack.com/home/post/p-220707244",
+    "canonicalUrl": "https://mattgourd.substack.com/p/ai-can-check-the-code-now-and-thats"
+  },
+  {
     "postId": 204908395,
     "title": "Nobody reads your API docs. That was fine until now.",
     "subtitle": "AI agents are the first readers of your documentation who can't ask a colleague.",
     "excerpt": "A research team at the Sidia Institute in Brazil recently tried to do the thing half the industry is currently trying to do: take a set of stable, production REST APIs (16 of them, roughly 600 endpoints) and expose them to AI agents through MCP. The early e...",
-    "publishedAt": "2026-07-03T12:52:00.940Z",
+    "publishedAt": "2026-07-03T12:52:00.939Z",
     "sourceUrl": "https://substack.com/home/post/p-204908395",
     "canonicalUrl": "https://mattgourd.substack.com/p/nobody-reads-your-api-docs-that-was"
   },
@@ -27,15 +36,6 @@ export const substackPosts: SubstackPost[] = [
     "publishedAt": "2026-03-26T15:34:33.870Z",
     "sourceUrl": "https://substack.com/home/post/p-192200914",
     "canonicalUrl": "https://mattgourd.substack.com/p/technical-writer-is-the-wrong-job"
-  },
-  {
-    "postId": 191499411,
-    "title": "Nostalgia dressed as a standard",
-    "subtitle": "Before we criticise vibe coding for being messy, let's look inside a Word document.",
-    "excerpt": "It gets said with the weariness of someone who’s been around long enough to know better. That weariness is usually the tell. Vibe coding is messy. The output is unreadable. No serious engineer would produce that.",
-    "publishedAt": "2026-03-19T19:05:43.653Z",
-    "sourceUrl": "https://substack.com/home/post/p-191499411",
-    "canonicalUrl": "https://mattgourd.substack.com/p/nostalgia-dressed-as-a-standard"
   },
   {
     "postId": 191342672,

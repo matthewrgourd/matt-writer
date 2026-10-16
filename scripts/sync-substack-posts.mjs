@@ -3,11 +3,12 @@ import { writeFile } from 'node:fs/promises';
 const SUBSTACK_SUBDOMAIN = 'mattgourd';
 
 const SOURCE_POSTS = [
+  'https://substack.com/home/post/p-220707244', // AI can check the code now, and that's helped more than I expected
   'https://substack.com/home/post/p-204908395', // Nobody reads your API docs
   'https://substack.com/home/post/p-192200914',
   //'https://substack.com/home/post/p-193787205', // Your documentation platform is missing half its stack
   //'https://substack.com/home/post/p-191669442',
-  'https://substack.com/home/post/p-191499411',
+  //'https://substack.com/home/post/p-191499411', // Nostalgia dressed as a standard
   'https://substack.com/home/post/p-191342672',
   //'https://substack.com/home/post/p-190741705',
   //'https://substack.com/home/post/p-188596070',
@@ -159,7 +160,46 @@ async function fetchHtml(url) {
     throw new Error(`Failed to fetch ${url}: ${response.status}`);
   }
 
-  return response.text();
+  return { html: await response.text(), finalUrl: response.url };
+}
+
+async function fetchJson(url) {
+  const response = await fetch(url, {
+    headers: { 'User-Agent': 'matt-writer-substack-sync/1.0' },
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${url}: ${response.status}`);
+  }
+
+  return response.json();
+}
+
+// Fallback for pages that don't embed window._preloads: resolve the post's
+// slug, then read the full post object from the public posts API.
+async function fetchPostFromApi(postId, finalUrl) {
+  let slug = finalUrl.match(/\/p\/([^/?#]+)/)?.[1] || null;
+
+  if (!slug) {
+    const posts = await fetchJson(
+      `https://${SUBSTACK_SUBDOMAIN}.substack.com/api/v1/posts?limit=50`,
+    );
+    slug = posts.find((candidate) => candidate.id === postId)?.slug || null;
+  }
+
+  if (!slug) {
+    throw new Error(`Could not resolve slug for post ${postId}`);
+  }
+
+  const post = await fetchJson(
+    `https://${SUBSTACK_SUBDOMAIN}.substack.com/api/v1/posts/${slug}`,
+  );
+
+  if (post.id !== postId) {
+    throw new Error(`Posts API returned id ${post.id} for slug ${slug}, expected ${postId}`);
+  }
+
+  return post;
 }
 
 async function fetchPost(url) {
@@ -169,15 +209,23 @@ async function fetchPost(url) {
   }
 
   const postId = Number.parseInt(idMatch[1], 10);
-  const html = await fetchHtml(url);
-  const preloads = extractPreloads(html);
-  const post = findPostObject(preloads, postId);
+  const { html, finalUrl } = await fetchHtml(url);
+
+  let preloads = null;
+  let post = null;
+  try {
+    preloads = extractPreloads(html);
+    post = findPostObject(preloads, postId);
+  } catch {
+    console.error(`No window._preloads payload for ${url}; using the posts API instead.`);
+    post = await fetchPostFromApi(postId, finalUrl);
+  }
 
   if (!post) {
     throw new Error(`Could not find post payload for ${postId}`);
   }
 
-  const subdomain = findFirstSubdomain(post) || findFirstSubdomain(preloads) || null;
+  const subdomain = findFirstSubdomain(post) || (preloads && findFirstSubdomain(preloads)) || null;
   const paragraphSnippets = extractParagraphs(post.body_html || '');
 
   let excerpt;
