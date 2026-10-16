@@ -31,7 +31,7 @@ export const substackPosts: SubstackPost[] = [
   {
     "postId": 192200914,
     "title": "Technical writer is the wrong job title",
-    "subtitle": "The augmentation debate is a distraction",
+    "subtitle": "The augmentation debate is a distraction.",
     "excerpt": "The question everyone’s asking is whether AI will replace technical writers. It’s the wrong question, and answering it either way tends to obscure what’s actually at stake.",
     "publishedAt": "2026-03-26T15:34:33.870Z",
     "sourceUrl": "https://substack.com/home/post/p-192200914",
